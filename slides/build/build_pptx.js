@@ -178,7 +178,7 @@ async function main() {
       { x: M + 0.1, y: 1.8, w: 7.7, h: 2.7, fontSize: 34, bold: true, fontFace: THEME.headFontFace,
         color: C.background1, valign: "middle", lineSpacingMultiple: 1.05 });
     text(s, paras([{ t: "Giảng viên hướng dẫn", size: 13, color: "D1D5DB", space: 4 },
-      { t: "Nguyễn Văn Danh", size: 20, bold: true }], { color: C.background1 }),
+      { t: "Th.S Nguyễn Văn Danh", size: 20, bold: true }], { color: C.background1 }),
       { x: M + 0.1, y: 5.25, w: 3.4, h: 1.2 });
     text(s, paras([{ t: "Nhóm thực hiện", size: 13, color: "D1D5DB", space: 4 },
       { t: "Trần Gia Thịnh – 2380602136", size: 18, space: 2 }, { t: "Phạm Minh Triết – 2380605829", size: 18 }],

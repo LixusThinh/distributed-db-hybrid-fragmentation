@@ -1,7 +1,7 @@
 # Phân mảnh hỗn hợp trong CSDL phân tán – ứng dụng cho quản lý đơn hàng
 
 Đồ án môn **Cơ Sở Dữ Liệu Nâng Cao** – HUTECH, Khoa Công nghệ Thông tin.
-GVHD: Nguyễn Văn Danh · Nhóm: Trần Gia Thịnh (2380602136), Phạm Minh Triết (2380605829).
+GVHD: Th.S Nguyễn Văn Danh · Nhóm: Trần Gia Thịnh (2380602136), Phạm Minh Triết (2380605829).
 
 ## Nội dung
 
