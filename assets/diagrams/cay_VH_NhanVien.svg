@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="684pt" height="369.216pt" viewBox="0 0 684 369.216" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-26T08:49:22.308346</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 369.216 
+L 684 369.216 
+L 684 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 281.127273 59.23968 
+L 402.872727 59.23968 
+Q 407.742545 59.23968 407.742545 54.5088 
+L 407.742545 30.8544 
+Q 407.742545 26.12352 402.872727 26.12352 
+L 281.127273 26.12352 
+Q 276.257455 26.12352 276.257455 30.8544 
+L 276.257455 54.5088 
+Q 276.257455 59.23968 281.127273 59.23968 
+z
+" clip-path="url(#pf0a8329d99)" style="fill: #f9fafb; stroke: #111827; stroke-width: 1.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 128.945455 157.79968 
+L 291.272727 157.79968 
+Q 296.142545 157.79968 296.142545 153.0688 
+L 296.142545 121.5296 
+Q 296.142545 116.79872 291.272727 116.79872 
+L 128.945455 116.79872 
+Q 124.075636 116.79872 124.075636 121.5296 
+L 124.075636 153.0688 
+Q 124.075636 157.79968 128.945455 157.79968 
+z
+" clip-path="url(#pf0a8329d99)" style="fill: #ede9fe; stroke: #7c3aed; stroke-width: 1.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 441.425455 171.59808 
+L 595.636364 171.59808 
+Q 600.506182 171.59808 600.506182 166.8672 
+L 600.506182 115.616 
+Q 600.506182 110.88512 595.636364 110.88512 
+L 441.425455 110.88512 
+Q 436.555636 110.88512 436.555636 115.616 
+L 436.555636 166.8672 
+Q 436.555636 171.59808 441.425455 171.59808 
+z
+" clip-path="url(#pf0a8329d99)" style="fill: #e5e7eb; stroke: #4b5563; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 13.287273 271.14368 
+L 130.974545 271.14368 
+Q 135.844364 271.14368 135.844364 266.4128 
+L 135.844364 225.0176 
+Q 135.844364 220.28672 130.974545 220.28672 
+L 13.287273 220.28672 
+Q 8.417455 220.28672 8.417455 225.0176 
+L 8.417455 266.4128 
+Q 8.417455 271.14368 13.287273 271.14368 
+z
+" clip-path="url(#pf0a8329d99)" style="fill: #fee2e2; stroke: #dc2626; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 151.265455 271.14368 
+L 268.952727 271.14368 
+Q 273.822545 271.14368 273.822545 266.4128 
+L 273.822545 225.0176 
+Q 273.822545 220.28672 268.952727 220.28672 
+L 151.265455 220.28672 
+Q 146.395636 220.28672 146.395636 225.0176 
+L 146.395636 266.4128 
+Q 146.395636 271.14368 151.265455 271.14368 
+z
+" clip-path="url(#pf0a8329d99)" style="fill: #dcfce7; stroke: #16a34a; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 289.243636 271.14368 
+L 406.930909 271.14368 
+Q 411.800727 271.14368 411.800727 266.4128 
+L 411.800727 225.0176 
+Q 411.800727 220.28672 406.930909 220.28672 
+L 289.243636 220.28672 
+Q 284.373818 220.28672 284.373818 225.0176 
+L 284.373818 266.4128 
+Q 284.373818 271.14368 289.243636 271.14368 
+z
+" clip-path="url(#pf0a8329d99)" style="fill: #dbeafe; stroke: #2563eb; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 218.225455 354.1312 
+L 230.4 354.1312 
+L 230.4 342.304 
+L 218.225455 342.304 
+z
+" clip-path="url(#pf0a8329d99)" style="fill: #e5e7eb; stroke: #4b5563; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 327.796364 354.1312 
+L 339.970909 354.1312 
+L 339.970909 342.304 
+L 327.796364 342.304 
+z
+" clip-path="url(#pf0a8329d99)" style="fill: #fee2e2; stroke: #dc2626; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 437.367273 354.1312 
+L 449.541818 354.1312 
+L 449.541818 342.304 
+L 437.367273 342.304 
+z
+" clip-path="url(#pf0a8329d99)" style="fill: #dcfce7; stroke: #16a34a; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 546.938182 354.1312 
+L 559.112727 354.1312 
+L 559.112727 342.304 
+L 546.938182 342.304 
+z
+" clip-path="url(#pf0a8329d99)" style="fill: #dbeafe; stroke: #2563eb; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'Segoe UI', 'DejaVu Sans'; text-anchor: middle; fill: #111827" x="342" y="47.414413" transform="rotate(-0 342 47.414413)">NhanVien</text>
+   </g>
+   <g id="patch_12">
+    <path d="M 340.168629 59.244962 
+Q 276.057707 87.03223 213.382939 114.197033 
+" style="fill: none; stroke: #7c3aed; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 217.848395 114.44137 
+L 213.382939 114.197033 
+L 216.257683 110.77127 
+z
+" style="fill: #7c3aed; stroke: #7c3aed; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="text_2">
+    <g id="patch_13">
+     <path d="M 272.605874 93.845221 
+L 279.503217 93.845221 
+Q 281.153217 93.845221 281.153217 92.195221 
+L 281.153217 81.871979 
+Q 281.153217 80.221979 279.503217 80.221979 
+L 272.605874 80.221979 
+Q 270.955874 80.221979 270.955874 81.871979 
+L 270.955874 92.195221 
+Q 270.955874 93.845221 272.605874 93.845221 
+z
+" style="fill: #ffffff"/>
+    </g>
+    <text style="font-size: 11px; font-family: 'Segoe UI', 'DejaVu Sans'; text-anchor: middle; fill: #7c3aed" x="276.054545" y="89.88028" transform="rotate(-0 276.054545 89.88028)">π</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'Segoe UI', 'DejaVu Sans'; fill: #111827" transform="translate(194.293466 133.798858)">NV_CV</text>
+    <text style="font-weight: 700; font-size: 10px; font-family: 'Segoe UI', 'DejaVu Sans'; fill: #111827" transform="translate(128.59581 146.715167)">MaNV, HoTen, ChucVu, SDT, MaCN</text>
+   </g>
+   <g id="patch_14">
+    <path d="M 343.920571 59.008788 
+Q 430.265245 84.076739 515.106739 108.708281 
+" style="fill: none; stroke: #7c3aed; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 511.822979 105.672342 
+L 515.106739 108.708281 
+L 510.707733 109.513726 
+z
+" style="fill: #7c3aed; stroke: #7c3aed; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="text_4">
+    <g id="patch_15">
+     <path d="M 426.816783 90.888421 
+L 433.714126 90.888421 
+Q 435.364126 90.888421 435.364126 89.238421 
+L 435.364126 78.915179 
+Q 435.364126 77.265179 433.714126 77.265179 
+L 426.816783 77.265179 
+Q 425.166783 77.265179 425.166783 78.915179 
+L 425.166783 89.238421 
+Q 425.166783 90.888421 426.816783 90.888421 
+z
+" style="fill: #ffffff"/>
+    </g>
+    <text style="font-size: 11px; font-family: 'Segoe UI', 'DejaVu Sans'; text-anchor: middle; fill: #7c3aed" x="430.265455" y="86.92348" transform="rotate(-0 430.265455 86.92348)">π</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 10px; font-family: 'Segoe UI', 'DejaVu Sans'; fill: #111827" transform="translate(503.21294 125.071825)">NV_NS</text>
+    <text style="font-size: 10px; font-family: 'Segoe UI', 'DejaVu Sans'; fill: #111827" transform="translate(464.958253 137.431883)">MaNV, NgaySinh, CCCD,</text>
+    <text style="font-size: 10px; font-family: 'Segoe UI', 'DejaVu Sans'; fill: #111827" transform="translate(476.757472 150.101317)">Luong, SoTaiKhoan</text>
+    <text style="font-size: 10px; font-family: 'Segoe UI', 'DejaVu Sans'; fill: #111827" transform="translate(507.034034 163.34575)">@ S0</text>
+   </g>
+   <g id="patch_16">
+    <path d="M 208.27741 157.822407 
+Q 141.120307 187.564664 75.394376 216.673089 
+" style="fill: none; stroke: #d97706; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 79.861629 216.882014 
+L 75.394376 216.673089 
+L 78.241868 213.224641 
+z
+" style="fill: #d97706; stroke: #d97706; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="text_6">
+    <g id="patch_17">
+     <path d="M 137.959219 194.376421 
+L 144.280781 194.376421 
+Q 145.930781 194.376421 145.930781 192.726421 
+L 145.930781 182.403179 
+Q 145.930781 180.753179 144.280781 180.753179 
+L 137.959219 180.753179 
+Q 136.309219 180.753179 136.309219 182.403179 
+L 136.309219 192.726421 
+Q 136.309219 194.376421 137.959219 194.376421 
+z
+" style="fill: #ffffff"/>
+    </g>
+    <text style="font-size: 11px; font-family: 'Segoe UI', 'DejaVu Sans'; text-anchor: middle; fill: #d97706" x="141.12" y="190.41148" transform="rotate(-0 141.12 190.41148)">σ</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 9.5px; font-family: 'Segoe UI', 'DejaVu Sans'; fill: #111827" transform="translate(56.09669 236.371894)">NV_CV₁</text>
+    <text style="font-size: 9.5px; font-family: 'Segoe UI', 'DejaVu Sans'; fill: #111827" transform="translate(20.640167 248.358872)">σ MaCN='CN01'(NV_CV)</text>
+    <text style="font-size: 9.5px; font-family: 'Segoe UI', 'DejaVu Sans'; fill: #111827" transform="translate(61.208878 260.714717)">@ S1</text>
+   </g>
+   <g id="patch_18">
+    <path d="M 210.109091 159.014042 
+Q 210.109091 187.565155 210.109091 214.551021 
+" style="fill: none; stroke: #d97706; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 212.109091 210.551021 
+L 210.109091 214.551021 
+L 208.109091 210.551021 
+z
+" style="fill: #d97706; stroke: #d97706; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="text_8">
+    <g id="patch_19">
+     <path d="M 206.94831 194.376421 
+L 213.269872 194.376421 
+Q 214.919872 194.376421 214.919872 192.726421 
+L 214.919872 182.403179 
+Q 214.919872 180.753179 213.269872 180.753179 
+L 206.94831 180.753179 
+Q 205.29831 180.753179 205.29831 182.403179 
+L 205.29831 192.726421 
+Q 205.29831 194.376421 206.94831 194.376421 
+z
+" style="fill: #ffffff"/>
+    </g>
+    <text style="font-size: 11px; font-family: 'Segoe UI', 'DejaVu Sans'; text-anchor: middle; fill: #d97706" x="210.109091" y="190.41148" transform="rotate(-0 210.109091 190.41148)">σ</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 9.5px; font-family: 'Segoe UI', 'DejaVu Sans'; fill: #111827" transform="translate(194.00288 236.371894)">NV_CV₂</text>
+    <text style="font-size: 9.5px; font-family: 'Segoe UI', 'DejaVu Sans'; fill: #111827" transform="translate(158.618349 248.340317)">σ MaCN='CN02'(NV_CV)</text>
+    <text style="font-size: 9.5px; font-family: 'Segoe UI', 'DejaVu Sans'; fill: #111827" transform="translate(199.18706 260.696162)">@ S2</text>
+   </g>
+   <g id="patch_20">
+    <path d="M 211.940771 157.822407 
+Q 279.097875 187.564664 344.823806 216.673089 
+" style="fill: none; stroke: #d97706; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 341.976314 213.224641 
+L 344.823806 216.673089 
+L 340.356552 216.882014 
+z
+" style="fill: #d97706; stroke: #d97706; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="text_10">
+    <g id="patch_21">
+     <path d="M 275.937401 194.376421 
+L 282.258963 194.376421 
+Q 283.908963 194.376421 283.908963 192.726421 
+L 283.908963 182.403179 
+Q 283.908963 180.753179 282.258963 180.753179 
+L 275.937401 180.753179 
+Q 274.287401 180.753179 274.287401 182.403179 
+L 274.287401 192.726421 
+Q 274.287401 194.376421 275.937401 194.376421 
+z
+" style="fill: #ffffff"/>
+    </g>
+    <text style="font-size: 11px; font-family: 'Segoe UI', 'DejaVu Sans'; text-anchor: middle; fill: #d97706" x="279.098182" y="190.41148" transform="rotate(-0 279.098182 190.41148)">σ</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 9.5px; font-family: 'Segoe UI', 'DejaVu Sans'; fill: #111827" transform="translate(331.981062 236.371894)">NV_CV₃</text>
+    <text style="font-size: 9.5px; font-family: 'Segoe UI', 'DejaVu Sans'; fill: #111827" transform="translate(296.596531 248.340317)">σ MaCN='CN03'(NV_CV)</text>
+    <text style="font-size: 9.5px; font-family: 'Segoe UI', 'DejaVu Sans'; fill: #111827" transform="translate(337.165241 260.696162)">@ S3</text>
+   </g>
+   <g id="text_12">
+    <text style="font-style: italic; font-size: 9.5px; font-family: 'Segoe UI', 'DejaVu Sans'; fill: #6b7280" transform="translate(457.215089 209.420469)">Dữ liệu nhạy cảm: không chia</text>
+    <text style="font-style: italic; font-size: 9.5px; font-family: 'Segoe UI', 'DejaVu Sans'; fill: #6b7280" transform="translate(444.421261 220.0896)">theo chi nhánh (và không có MaCN)</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 12.5px; font-family: 'Segoe UI', 'DejaVu Sans'; text-anchor: middle; fill: #111827" x="342" y="312.736" transform="rotate(-0 342 312.736)">NhanVien = ( NV_CV₁ ∪ NV_CV₂ ∪ NV_CV₃ ) ⋈_MaNV NV_NS</text>
+   </g>
+   <g id="text_14">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Segoe UI', 'DejaVu Sans'; text-anchor: start; fill: #111827" x="15.316364" y="22.9696" transform="rotate(-0 15.316364 22.9696)">Phân mảnh hỗn hợp VH (dọc → ngang)</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 9.5px; font-family: 'Segoe UI', 'DejaVu Sans'; text-anchor: start; fill: #111827" x="235.269818" y="350.871013" transform="rotate(-0 235.269818 350.871013)">S0 – Trụ sở</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 9.5px; font-family: 'Segoe UI', 'DejaVu Sans'; text-anchor: start; fill: #111827" x="344.840727" y="350.813122" transform="rotate(-0 344.840727 350.813122)">S1 – Hà Nội</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 9.5px; font-family: 'Segoe UI', 'DejaVu Sans'; text-anchor: start; fill: #111827" x="454.411636" y="351.191545" transform="rotate(-0 454.411636 351.191545)">S2 – Đà Nẵng</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 9.5px; font-family: 'Segoe UI', 'DejaVu Sans'; text-anchor: start; fill: #111827" x="563.982545" y="350.676096" transform="rotate(-0 563.982545 350.676096)">S3 – TP.HCM</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pf0a8329d99">
+   <rect x="7.2" y="7.2" width="669.6" height="354.816"/>
+  </clipPath>
+ </defs>
+</svg>
