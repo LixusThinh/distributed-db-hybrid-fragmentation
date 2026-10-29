@@ -6,7 +6,7 @@ Làm 3 sản phẩm cho đề tài *"Tìm hiểu Phân mảnh hỗn hợp trong 
 2. **Báo cáo Word** theo mẫu đồ án HUTECH.
 3. **Demo SQL Server** cho Chương 4 và slide 15.
 
-Nhóm: Trần Gia Thịnh (2380602136), Phạm Minh Triết (2380605829). GVHD: Th.S Nguyễn Văn Danh.
+Nhóm: Trần Gia Thịnh (2380602136), Phạm Minh Triết (2380605829). GVHD: ThS. Nguyễn Văn Danh.
 Thiết kế nghiệp vụ đã được duyệt ngày 26/10: `docs/01_bai_toan_thiet_ke.md`. Đề cương: `docs/00_de_cuong.md`.
 
 ## Quyết định
@@ -70,5 +70,5 @@ Thiết kế nghiệp vụ đã được duyệt ngày 26/10: `docs/01_bai_toan_
 | Thiếu thông tin lớp trên bìa | Thấp | Để chỗ trống đánh dấu, điền trước khi xuất PDF |
 
 ## Câu hỏi còn mở
-- Tên lớp? (Học vị GVHD đã chốt 29/10: Th.S)
+- Tên lớp? (Học vị GVHD đã chốt 29/10: ThS.)
 - Hạn nộp báo cáo Word là ngày nào? Có phải nộp kèm script SQL không?

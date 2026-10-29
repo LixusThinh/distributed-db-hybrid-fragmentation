@@ -88,7 +88,7 @@
 ### T8: Word – phần đầu, Lời mở đầu, Chương 1–2 ✅ (26/10)
 **Người làm:** Claude · **Hạn:** T4 28/10
 **Tiêu chí hoàn thành:**
-- [x] Bìa (GVHD Th.S Nguyễn Văn Danh, 2 SV + MSSV), lời cảm ơn, nhận xét GV, bảng phân công, danh mục từ viết tắt
+- [x] Bìa (GVHD ThS. Nguyễn Văn Danh, 2 SV + MSSV), lời cảm ơn, nhận xét GV, bảng phân công, danh mục từ viết tắt
 - [x] Chương 1–2 đủ các mục trong đề cương, mỗi loại phân mảnh có ví dụ
 **Kiểm tra:** đối chiếu từng mục với đề cương
 **Phụ thuộc:** không · **File:** `docs/draft/ch0_ch1_ch2.md` · **Quy mô:** M

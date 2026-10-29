@@ -5,7 +5,7 @@
 **Định dạng:** khổ A4; Times New Roman 13; giãn dòng 1.3; lề trên/dưới 2 cm, trái 3 cm, phải 2 cm. Heading chương 14 in đậm IN HOA; đánh số hình/bảng theo chương (Hình 3.1, Bảng 4.2). Độ dài khoảng 30–40 trang.
 
 ### Phần đầu
-1. **Trang bìa:** BỘ GIÁO DỤC VÀ ĐÀO TẠO / TRƯỜNG ĐẠI HỌC CÔNG NGHỆ TP. HCM / KHOA CÔNG NGHỆ THÔNG TIN; dòng "ĐỒ ÁN MÔN HỌC CƠ SỞ DỮ LIỆU NÂNG CAO"; tên đề tài; Ngành: Công nghệ Thông tin; GVHD: Th.S Nguyễn Văn Danh; Sinh viên thực hiện: Trần Gia Thịnh – 2380602136, Phạm Minh Triết – 2380605829; Lớp: *(chưa có)*; TP. Hồ Chí Minh, 2026
+1. **Trang bìa:** BỘ GIÁO DỤC VÀ ĐÀO TẠO / TRƯỜNG ĐẠI HỌC CÔNG NGHỆ TP. HCM / KHOA CÔNG NGHỆ THÔNG TIN; dòng "ĐỒ ÁN MÔN HỌC CƠ SỞ DỮ LIỆU NÂNG CAO"; tên đề tài; Ngành: Công nghệ Thông tin; GVHD: ThS. Nguyễn Văn Danh; Sinh viên thực hiện: Trần Gia Thịnh – 2380602136, Phạm Minh Triết – 2380605829; Lớp: *(chưa có)*; TP. Hồ Chí Minh, 2026
 2. Trang phụ bìa (nếu khoa yêu cầu)
 3. Lời cảm ơn
 4. Nhận xét của giảng viên

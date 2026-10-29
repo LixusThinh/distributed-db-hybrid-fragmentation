@@ -18,7 +18,7 @@
 - TRƯỜNG ĐẠI HỌC CÔNG NGHỆ TP.HCM – KHOA CÔNG NGHỆ THÔNG TIN
 - Môn: Cơ Sở Dữ Liệu Nâng Cao
 - **TÌM HIỂU PHÂN MẢNH HỖN HỢP TRONG CSDL PHÂN TÁN VÀ ỨNG DỤNG CHO QUẢN LÝ ĐƠN HÀNG**
-- GVHD: Th.S Nguyễn Văn Danh
+- GVHD: ThS. Nguyễn Văn Danh
 - Nhóm thực hiện: Trần Gia Thịnh – 2380602136 · Phạm Minh Triết – 2380605829
 
 **Hình/bố cục:** logo HUTECH góc trên; tên đề tài to ở giữa; thông tin GVHD và nhóm ở dưới.
