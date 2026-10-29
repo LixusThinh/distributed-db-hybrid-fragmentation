@@ -33,7 +33,7 @@ const BODY = 26; // cỡ chữ 13pt (đơn vị nửa point)
 const LINE = 312; // giãn dòng 1.3 (240 = đơn)
 
 const COVER = {
-  gvhd: "Nguyễn Văn Danh",
+  gvhd: "Th.S Nguyễn Văn Danh",
   sv: [["Trần Gia Thịnh", "2380602136"], ["Phạm Minh Triết", "2380605829"]],
   lop: "………………",
   title: "TÌM HIỂU PHÂN MẢNH HỖN HỢP TRONG CSDL PHÂN TÁN VÀ ỨNG DỤNG CHO QUẢN LÝ ĐƠN HÀNG",

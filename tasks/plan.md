@@ -6,7 +6,7 @@ Làm 3 sản phẩm cho đề tài *"Tìm hiểu Phân mảnh hỗn hợp trong 
 2. **Báo cáo Word** theo mẫu đồ án HUTECH.
 3. **Demo SQL Server** cho Chương 4 và slide 15.
 
-Nhóm: Trần Gia Thịnh (2380602136), Phạm Minh Triết (2380605829). GVHD: Nguyễn Văn Danh.
+Nhóm: Trần Gia Thịnh (2380602136), Phạm Minh Triết (2380605829). GVHD: Th.S Nguyễn Văn Danh.
 Thiết kế nghiệp vụ đã được duyệt ngày 26/10: `docs/01_bai_toan_thiet_ke.md`. Đề cương: `docs/00_de_cuong.md`.
 
 ## Quyết định
@@ -67,8 +67,8 @@ Thiết kế nghiệp vụ đã được duyệt ngày 26/10: `docs/01_bai_toan_
 | Tổng thời gian nói vượt 15 phút | Trung bình | Lời thuyết trình viết theo ngân sách khoảng 130 từ/phút. Đã có phương án rút còn 10 phút (gộp 5+6, 12+13) |
 | Thầy hỏi: "4 database trên 1 máy thì có thật sự phân tán không?" | Trung bình | (1) Slide 15 và mục 4.7 nói rõ đây là **mô phỏng**: mỗi database đóng vai một site, ranh giới giữa các site là ranh giới database. (2) Câu trả lời Q&A soạn sẵn: thiết kế phân mảnh và cấp phát không phụ thuộc hạ tầng; chuyển sang nhiều máy chỉ cần đổi synonym sang Linked Server. (3) Nếu kịp: làm T4b, chạy thật trên 2 laptop |
 | Hạn nộp Word chưa rõ | Thấp | Làm Word song song, xong trước T7 |
-| Thiếu thông tin lớp / học vị GVHD trên bìa | Thấp | Để chỗ trống đánh dấu, điền trước khi xuất PDF |
+| Thiếu thông tin lớp trên bìa | Thấp | Để chỗ trống đánh dấu, điền trước khi xuất PDF |
 
 ## Câu hỏi còn mở
-- Tên lớp? Học vị GVHD (không bắt buộc: mặc định ghi tên không kèm học vị)?
+- Tên lớp? (Học vị GVHD đã chốt 29/10: Th.S)
 - Hạn nộp báo cáo Word là ngày nào? Có phải nộp kèm script SQL không?
