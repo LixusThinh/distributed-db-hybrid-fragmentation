@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="460.8pt" height="402.48pt" viewBox="0 0 460.8 402.48" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-26T08:49:22.833712</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 402.48 
+L 460.8 402.48 
+L 460.8 -0 
+L 0 -0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 69.696 61.644233 
+L 391.104 61.644233 
+Q 396.4608 61.644233 396.4608 57.122913 
+L 396.4608 17.561359 
+Q 396.4608 13.040039 391.104 13.040039 
+L 69.696 13.040039 
+Q 64.3392 13.040039 64.3392 17.561359 
+L 64.3392 57.122913 
+Q 64.3392 61.644233 69.696 61.644233 
+z
+" clip-path="url(#pd6a61a9877)" style="fill: #f9fafb; stroke: #111827; stroke-width: 1.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 69.696 144.535107 
+L 391.104 144.535107 
+Q 396.4608 144.535107 396.4608 140.013786 
+L 396.4608 100.452233 
+Q 396.4608 95.930913 391.104 95.930913 
+L 69.696 95.930913 
+Q 64.3392 95.930913 64.3392 100.452233 
+L 64.3392 140.013786 
+Q 64.3392 144.535107 69.696 144.535107 
+z
+" clip-path="url(#pd6a61a9877)" style="fill: #fef3c7; stroke: #d97706; stroke-width: 1.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 69.696 227.425981 
+L 391.104 227.425981 
+Q 396.4608 227.425981 396.4608 222.90466 
+L 396.4608 183.343107 
+Q 396.4608 178.821786 391.104 178.821786 
+L 69.696 178.821786 
+Q 64.3392 178.821786 64.3392 183.343107 
+L 64.3392 222.90466 
+Q 64.3392 227.425981 69.696 227.425981 
+z
+" clip-path="url(#pd6a61a9877)" style="fill: #dbeafe; stroke: #2563eb; stroke-width: 1.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 42.912 317.852388 
+L 150.048 317.852388 
+Q 155.4048 317.852388 155.4048 313.331068 
+L 155.4048 277.537282 
+Q 155.4048 273.015961 150.048 273.015961 
+L 42.912 273.015961 
+Q 37.5552 273.015961 37.5552 277.537282 
+L 37.5552 313.331068 
+Q 37.5552 317.852388 42.912 317.852388 
+z
+" clip-path="url(#pd6a61a9877)" style="fill: #e5e7eb; stroke: #4b5563; stroke-width: 1.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 42.912 388.498019 
+L 150.048 388.498019 
+Q 155.4048 388.498019 155.4048 383.976699 
+L 155.4048 350.066796 
+Q 155.4048 345.545476 150.048 345.545476 
+L 42.912 345.545476 
+Q 37.5552 345.545476 37.5552 350.066796 
+L 37.5552 383.976699 
+Q 37.5552 388.498019 42.912 388.498019 
+z
+" clip-path="url(#pd6a61a9877)" style="fill: #f3f4f6; stroke: #4b5563; stroke-width: 1.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 176.832 317.852388 
+L 283.968 317.852388 
+Q 289.3248 317.852388 289.3248 313.331068 
+L 289.3248 277.537282 
+Q 289.3248 273.015961 283.968 273.015961 
+L 176.832 273.015961 
+Q 171.4752 273.015961 171.4752 277.537282 
+L 171.4752 313.331068 
+Q 171.4752 317.852388 176.832 317.852388 
+z
+" clip-path="url(#pd6a61a9877)" style="fill: #e5e7eb; stroke: #4b5563; stroke-width: 1.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 176.832 388.498019 
+L 283.968 388.498019 
+Q 289.3248 388.498019 289.3248 383.976699 
+L 289.3248 350.066796 
+Q 289.3248 345.545476 283.968 345.545476 
+L 176.832 345.545476 
+Q 171.4752 345.545476 171.4752 350.066796 
+L 171.4752 383.976699 
+Q 171.4752 388.498019 176.832 388.498019 
+z
+" clip-path="url(#pd6a61a9877)" style="fill: #f3f4f6; stroke: #4b5563; stroke-width: 1.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 310.752 317.852388 
+L 417.888 317.852388 
+Q 423.2448 317.852388 423.2448 313.331068 
+L 423.2448 277.537282 
+Q 423.2448 273.015961 417.888 273.015961 
+L 310.752 273.015961 
+Q 305.3952 273.015961 305.3952 277.537282 
+L 305.3952 313.331068 
+Q 305.3952 317.852388 310.752 317.852388 
+z
+" clip-path="url(#pd6a61a9877)" style="fill: #e5e7eb; stroke: #4b5563; stroke-width: 1.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 310.752 388.498019 
+L 417.888 388.498019 
+Q 423.2448 388.498019 423.2448 383.976699 
+L 423.2448 350.066796 
+Q 423.2448 345.545476 417.888 345.545476 
+L 310.752 345.545476 
+Q 305.3952 345.545476 305.3952 350.066796 
+L 305.3952 383.976699 
+Q 305.3952 388.498019 310.752 388.498019 
+z
+" clip-path="url(#pd6a61a9877)" style="fill: #f3f4f6; stroke: #4b5563; stroke-width: 1.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 10.5px; font-family: 'Segoe UI', 'DejaVu Sans'; fill: #111827" transform="translate(190.481133 34.028535)">Lược đồ toàn cục</text>
+    <text style="font-size: 10.5px; font-family: 'Segoe UI', 'DejaVu Sans'; fill: #111827" transform="translate(120.913711 46.731792)">định nghĩa các quan hệ như với CSDL tập trung</text>
+   </g>
+   <g id="patch_11">
+    <path d="M 230.4 63.831948 
+Q 230.4 78.788083 230.4 92.17897 
+" style="fill: none; stroke: #6b7280; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 232.4 88.17897 
+L 230.4 92.17897 
+L 228.4 88.17897 
+z
+" style="fill: #6b7280; stroke: #6b7280; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 10.5px; font-family: 'Segoe UI', 'DejaVu Sans'; fill: #111827" transform="translate(183.96375 116.516635)">Lược đồ phân mảnh</text>
+    <text style="font-size: 10.5px; font-family: 'Segoe UI', 'DejaVu Sans'; fill: #111827" transform="translate(138.63 130.199345)">chia mỗi quan hệ thành các mảnh (σ, π)</text>
+   </g>
+   <g id="patch_12">
+    <path d="M 230.4 146.722822 
+Q 230.4 161.678957 230.4 175.069844 
+" style="fill: none; stroke: #6b7280; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 232.4 171.069844 
+L 230.4 175.069844 
+L 228.4 171.069844 
+z
+" style="fill: #6b7280; stroke: #6b7280; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 10.5px; font-family: 'Segoe UI', 'DejaVu Sans'; fill: #111827" transform="translate(190.108711 199.407509)">Lược đồ cấp phát</text>
+    <text style="font-size: 10.5px; font-family: 'Segoe UI', 'DejaVu Sans'; fill: #111827" transform="translate(142.322227 213.492992)">đặt mỗi mảnh lên một hoặc nhiều site</text>
+   </g>
+   <g id="patch_13">
+    <path d="M 230.4 229.613695 
+Q 230.4 244.56983 230.4 257.960718 
+" style="fill: none; stroke: #6b7280; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 232.4 253.960718 
+L 230.4 257.960718 
+L 228.4 253.960718 
+z
+" style="fill: #6b7280; stroke: #6b7280; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="text_4">
+    <text style="font-style: italic; font-size: 9px; font-family: 'Segoe UI', 'DejaVu Sans'; fill: #6b7280" transform="translate(241.56 245.659148)">↑ độc lập với vị trí</text>
+    <text style="font-style: italic; font-size: 9px; font-family: 'Segoe UI', 'DejaVu Sans'; fill: #6b7280" transform="translate(241.56 255.740027)">↓ phụ thuộc vị trí</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 9.5px; font-family: 'Segoe UI', 'DejaVu Sans'; fill: #111827" transform="translate(64.546641 292.436155)">Lược đồ ánh xạ</text>
+    <text style="font-size: 9.5px; font-family: 'Segoe UI', 'DejaVu Sans'; fill: #111827" transform="translate(78.665273 304.319226)">cục bộ 1</text>
+   </g>
+   <g id="patch_14">
+    <path d="M 96.48 320.040103 
+Q 96.48 331.226379 96.48 340.847407 
+" style="fill: none; stroke: #6b7280; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 98.48 336.847407 
+L 96.48 340.847407 
+L 94.48 336.847407 
+z
+" style="fill: #6b7280; stroke: #6b7280; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 9.5px; font-family: 'Segoe UI', 'DejaVu Sans'; fill: #111827" transform="translate(66.753906 364.329509)">DBMS + CSDL</text>
+    <text style="font-size: 9.5px; font-family: 'Segoe UI', 'DejaVu Sans'; fill: #111827" transform="translate(70.104141 375.906799)">cục bộ site 1</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 9.5px; font-family: 'Segoe UI', 'DejaVu Sans'; fill: #111827" transform="translate(198.466641 292.436155)">Lược đồ ánh xạ</text>
+    <text style="font-size: 9.5px; font-family: 'Segoe UI', 'DejaVu Sans'; fill: #111827" transform="translate(212.585273 304.319226)">cục bộ 2</text>
+   </g>
+   <g id="patch_15">
+    <path d="M 230.4 320.040103 
+Q 230.4 331.226379 230.4 340.847407 
+" style="fill: none; stroke: #6b7280; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 232.4 336.847407 
+L 230.4 340.847407 
+L 228.4 336.847407 
+z
+" style="fill: #6b7280; stroke: #6b7280; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 9.5px; font-family: 'Segoe UI', 'DejaVu Sans'; fill: #111827" transform="translate(200.673906 364.329509)">DBMS + CSDL</text>
+    <text style="font-size: 9.5px; font-family: 'Segoe UI', 'DejaVu Sans'; fill: #111827" transform="translate(204.024141 375.906799)">cục bộ site 2</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 9.5px; font-family: 'Segoe UI', 'DejaVu Sans'; fill: #111827" transform="translate(332.386641 292.436155)">Lược đồ ánh xạ</text>
+    <text style="font-size: 9.5px; font-family: 'Segoe UI', 'DejaVu Sans'; fill: #111827" transform="translate(346.505273 304.319226)">cục bộ 3</text>
+   </g>
+   <g id="patch_16">
+    <path d="M 364.32 320.040103 
+Q 364.32 331.226379 364.32 340.847407 
+" style="fill: none; stroke: #6b7280; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 366.32 336.847407 
+L 364.32 340.847407 
+L 362.32 336.847407 
+z
+" style="fill: #6b7280; stroke: #6b7280; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 9.5px; font-family: 'Segoe UI', 'DejaVu Sans'; fill: #111827" transform="translate(334.593906 364.329509)">DBMS + CSDL</text>
+    <text style="font-size: 9.5px; font-family: 'Segoe UI', 'DejaVu Sans'; fill: #111827" transform="translate(337.944141 375.906799)">cục bộ site 3</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pd6a61a9877">
+   <rect x="7.2" y="7.2" width="446.4" height="388.08"/>
+  </clipPath>
+ </defs>
+</svg>
