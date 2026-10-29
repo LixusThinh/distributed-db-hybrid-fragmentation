@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="739.8pt" height="369.216pt" viewBox="0 0 739.8 369.216" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-26T08:49:22.076873</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 369.216 
+L 739.8 369.216 
+L 739.8 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 309.45 59.23968 
+L 430.35 59.23968 
+Q 435.186 59.23968 435.186 54.5088 
+L 435.186 30.8544 
+Q 435.186 26.12352 430.35 26.12352 
+L 309.45 26.12352 
+Q 304.614 26.12352 304.614 30.8544 
+L 304.614 54.5088 
+Q 304.614 59.23968 309.45 59.23968 
+z
+" clip-path="url(#p04c9913aec)" style="fill: #f9fafb; stroke: #111827; stroke-width: 1.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 83.77 151.88608 
+L 172.43 151.88608 
+Q 177.266 151.88608 177.266 147.1552 
+L 177.266 123.5008 
+Q 177.266 118.76992 172.43 118.76992 
+L 83.77 118.76992 
+Q 78.934 118.76992 78.934 123.5008 
+L 78.934 147.1552 
+Q 78.934 151.88608 83.77 151.88608 
+z
+" clip-path="url(#p04c9913aec)" style="fill: #fef3c7; stroke: #d97706; stroke-width: 1.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 19.29 291.84128 
+L 120.04 291.84128 
+Q 124.876 291.84128 124.876 287.1104 
+L 124.876 220.0896 
+Q 124.876 215.35872 120.04 215.35872 
+L 19.29 215.35872 
+Q 14.454 215.35872 14.454 220.0896 
+L 14.454 287.1104 
+Q 14.454 291.84128 19.29 291.84128 
+z
+" clip-path="url(#p04c9913aec)" style="fill: #fee2e2; stroke: #dc2626; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 136.16 291.84128 
+L 236.91 291.84128 
+Q 241.746 291.84128 241.746 287.1104 
+L 241.746 220.0896 
+Q 241.746 215.35872 236.91 215.35872 
+L 136.16 215.35872 
+Q 131.324 215.35872 131.324 220.0896 
+L 131.324 287.1104 
+Q 131.324 291.84128 136.16 291.84128 
+z
+" clip-path="url(#p04c9913aec)" style="fill: #e5e7eb; stroke: #4b5563; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 325.57 151.88608 
+L 414.23 151.88608 
+Q 419.066 151.88608 419.066 147.1552 
+L 419.066 123.5008 
+Q 419.066 118.76992 414.23 118.76992 
+L 325.57 118.76992 
+Q 320.734 118.76992 320.734 123.5008 
+L 320.734 147.1552 
+Q 320.734 151.88608 325.57 151.88608 
+z
+" clip-path="url(#p04c9913aec)" style="fill: #fef3c7; stroke: #d97706; stroke-width: 1.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 261.09 291.84128 
+L 361.84 291.84128 
+Q 366.676 291.84128 366.676 287.1104 
+L 366.676 220.0896 
+Q 366.676 215.35872 361.84 215.35872 
+L 261.09 215.35872 
+Q 256.254 215.35872 256.254 220.0896 
+L 256.254 287.1104 
+Q 256.254 291.84128 261.09 291.84128 
+z
+" clip-path="url(#p04c9913aec)" style="fill: #dcfce7; stroke: #16a34a; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 377.96 291.84128 
+L 478.71 291.84128 
+Q 483.546 291.84128 483.546 287.1104 
+L 483.546 220.0896 
+Q 483.546 215.35872 478.71 215.35872 
+L 377.96 215.35872 
+Q 373.124 215.35872 373.124 220.0896 
+L 373.124 287.1104 
+Q 373.124 291.84128 377.96 291.84128 
+z
+" clip-path="url(#p04c9913aec)" style="fill: #e5e7eb; stroke: #4b5563; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 567.37 151.88608 
+L 656.03 151.88608 
+Q 660.866 151.88608 660.866 147.1552 
+L 660.866 123.5008 
+Q 660.866 118.76992 656.03 118.76992 
+L 567.37 118.76992 
+Q 562.534 118.76992 562.534 123.5008 
+L 562.534 147.1552 
+Q 562.534 151.88608 567.37 151.88608 
+z
+" clip-path="url(#p04c9913aec)" style="fill: #fef3c7; stroke: #d97706; stroke-width: 1.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 502.89 291.84128 
+L 603.64 291.84128 
+Q 608.476 291.84128 608.476 287.1104 
+L 608.476 220.0896 
+Q 608.476 215.35872 603.64 215.35872 
+L 502.89 215.35872 
+Q 498.054 215.35872 498.054 220.0896 
+L 498.054 287.1104 
+Q 498.054 291.84128 502.89 291.84128 
+z
+" clip-path="url(#p04c9913aec)" style="fill: #dbeafe; stroke: #2563eb; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 619.76 291.84128 
+L 720.51 291.84128 
+Q 725.346 291.84128 725.346 287.1104 
+L 725.346 220.0896 
+Q 725.346 215.35872 720.51 215.35872 
+L 619.76 215.35872 
+Q 614.924 215.35872 614.924 220.0896 
+L 614.924 287.1104 
+Q 614.924 291.84128 619.76 291.84128 
+z
+" clip-path="url(#p04c9913aec)" style="fill: #e5e7eb; stroke: #4b5563; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 297.36 362.016 
+L 309.45 362.016 
+L 309.45 350.1888 
+L 297.36 350.1888 
+z
+" clip-path="url(#p04c9913aec)" style="fill: #e5e7eb; stroke: #4b5563; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 406.17 362.016 
+L 418.26 362.016 
+L 418.26 350.1888 
+L 406.17 350.1888 
+z
+" clip-path="url(#p04c9913aec)" style="fill: #fee2e2; stroke: #dc2626; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 514.98 362.016 
+L 527.07 362.016 
+L 527.07 350.1888 
+L 514.98 350.1888 
+z
+" clip-path="url(#p04c9913aec)" style="fill: #dcfce7; stroke: #16a34a; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 623.79 362.016 
+L 635.88 362.016 
+L 635.88 350.1888 
+L 623.79 350.1888 
+z
+" clip-path="url(#p04c9913aec)" style="fill: #dbeafe; stroke: #2563eb; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'Segoe UI', 'DejaVu Sans'; text-anchor: middle; fill: #111827" x="369.9" y="45.967147" transform="rotate(-0 369.9 45.967147)">KhachHang</text>
+   </g>
+   <g id="patch_16">
+    <path d="M 367.962973 58.940721 
+Q 248.999561 89.004911 131.553688 118.685591 
+" style="fill: none; stroke: #d97706; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 135.921795 119.64457 
+L 131.553688 118.685591 
+L 134.941735 115.766493 
+z
+" style="fill: #d97706; stroke: #d97706; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="text_2">
+    <g id="patch_17">
+     <path d="M 212.939063 95.197183 
+L 285.060938 95.197183 
+Q 286.560938 95.197183 286.560938 93.697183 
+L 286.560938 84.312417 
+Q 286.560938 82.812417 285.060938 82.812417 
+L 212.939063 82.812417 
+Q 211.439063 82.812417 211.439063 84.312417 
+L 211.439063 93.697183 
+Q 211.439063 95.197183 212.939063 95.197183 
+z
+" style="fill: #ffffff"/>
+    </g>
+    <text style="font-size: 10px; font-family: 'Segoe UI', 'DejaVu Sans'; text-anchor: middle; fill: #d97706" x="249" y="91.592691" transform="rotate(-0 249 91.592691)">σ MaCN='CN01'</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Segoe UI', 'DejaVu Sans'; text-anchor: middle; fill: #111827" x="128.1" y="138.820187" transform="rotate(-0 128.1 138.820187)">KH₁</text>
+   </g>
+   <g id="patch_18">
+    <path d="M 126.739346 152.566375 
+Q 98.882335 182.636979 72.08905 211.559329 
+" style="fill: none; stroke: #7c3aed; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 76.274594 209.984141 
+L 72.08905 211.559329 
+L 73.340226 207.26578 
+z
+" style="fill: #7c3aed; stroke: #7c3aed; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="text_4">
+    <g id="patch_19">
+     <path d="M 95.433828 189.448421 
+L 102.331172 189.448421 
+Q 103.981172 189.448421 103.981172 187.798421 
+L 103.981172 177.475179 
+Q 103.981172 175.825179 102.331172 175.825179 
+L 95.433828 175.825179 
+Q 93.783828 175.825179 93.783828 177.475179 
+L 93.783828 187.798421 
+Q 93.783828 189.448421 95.433828 189.448421 
+z
+" style="fill: #ffffff"/>
+    </g>
+    <text style="font-size: 11px; font-family: 'Segoe UI', 'DejaVu Sans'; text-anchor: middle; fill: #7c3aed" x="98.8825" y="185.48348" transform="rotate(-0 98.8825 185.48348)">π</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 9.5px; font-family: 'Segoe UI', 'DejaVu Sans'; fill: #111827" transform="translate(53.30793 238.238713)">KH₁_GD</text>
+    <text style="font-size: 9.5px; font-family: 'Segoe UI', 'DejaVu Sans'; fill: #111827" transform="translate(29.679648 250.351121)">MaKH, HoTen, SDT,</text>
+    <text style="font-size: 9.5px; font-family: 'Segoe UI', 'DejaVu Sans'; fill: #111827" transform="translate(26.935781 262.522161)">Email, DiaChi, MaCN</text>
+    <text style="font-size: 9.5px; font-family: 'Segoe UI', 'DejaVu Sans'; fill: #111827" transform="translate(58.742969 274.617498)">@ S1</text>
+   </g>
+   <g id="patch_20">
+    <path d="M 129.460654 152.566375 
+Q 157.317665 182.636979 184.11095 211.559329 
+" style="fill: none; stroke: #7c3aed; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 182.859774 207.26578 
+L 184.11095 211.559329 
+L 179.925406 209.984141 
+z
+" style="fill: #7c3aed; stroke: #7c3aed; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="text_6">
+    <g id="patch_21">
+     <path d="M 153.868828 189.448421 
+L 160.766172 189.448421 
+Q 162.416172 189.448421 162.416172 187.798421 
+L 162.416172 177.475179 
+Q 162.416172 175.825179 160.766172 175.825179 
+L 153.868828 175.825179 
+Q 152.218828 175.825179 152.218828 177.475179 
+L 152.218828 187.798421 
+Q 152.218828 189.448421 153.868828 189.448421 
+z
+" style="fill: #ffffff"/>
+    </g>
+    <text style="font-size: 11px; font-family: 'Segoe UI', 'DejaVu Sans'; text-anchor: middle; fill: #7c3aed" x="157.3175" y="185.48348" transform="rotate(-0 157.3175 185.48348)">π</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 9.5px; font-family: 'Segoe UI', 'DejaVu Sans'; fill: #111827" transform="translate(171.558398 238.238713)">KH₁_TC</text>
+    <text style="font-size: 9.5px; font-family: 'Segoe UI', 'DejaVu Sans'; fill: #111827" transform="translate(146.401953 250.295457)">MaKH, HanMucNo,</text>
+    <text style="font-size: 9.5px; font-family: 'Segoe UI', 'DejaVu Sans'; fill: #111827" transform="translate(139.855859 262.016731)">CongNo, DiemTichLuy</text>
+    <text style="font-size: 9.5px; font-family: 'Segoe UI', 'DejaVu Sans'; fill: #111827" transform="translate(175.612969 274.598943)">@ S0</text>
+   </g>
+   <g id="patch_22">
+    <path d="M 369.9 60.454042 
+Q 369.9 89.005155 369.9 115.991021 
+" style="fill: none; stroke: #d97706; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 371.9 111.991021 
+L 369.9 115.991021 
+L 367.9 111.991021 
+z
+" style="fill: #d97706; stroke: #d97706; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="text_8">
+    <g id="patch_23">
+     <path d="M 333.839062 95.197183 
+L 405.960937 95.197183 
+Q 407.460937 95.197183 407.460937 93.697183 
+L 407.460937 84.312417 
+Q 407.460937 82.812417 405.960937 82.812417 
+L 333.839062 82.812417 
+Q 332.339062 82.812417 332.339062 84.312417 
+L 332.339062 93.697183 
+Q 332.339062 95.197183 333.839062 95.197183 
+z
+" style="fill: #ffffff"/>
+    </g>
+    <text style="font-size: 10px; font-family: 'Segoe UI', 'DejaVu Sans'; text-anchor: middle; fill: #d97706" x="369.9" y="91.592691" transform="rotate(-0 369.9 91.592691)">σ MaCN='CN02'</text>
+   </g>
+   <g id="text_9">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Segoe UI', 'DejaVu Sans'; text-anchor: middle; fill: #111827" x="369.9" y="138.820187" transform="rotate(-0 369.9 138.820187)">KH₂</text>
+   </g>
+   <g id="patch_24">
+    <path d="M 368.539346 152.566375 
+Q 340.682335 182.636979 313.88905 211.559329 
+" style="fill: none; stroke: #7c3aed; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 318.074594 209.984141 
+L 313.88905 211.559329 
+L 315.140226 207.26578 
+z
+" style="fill: #7c3aed; stroke: #7c3aed; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="text_10">
+    <g id="patch_25">
+     <path d="M 337.233828 189.448421 
+L 344.131172 189.448421 
+Q 345.781172 189.448421 345.781172 187.798421 
+L 345.781172 177.475179 
+Q 345.781172 175.825179 344.131172 175.825179 
+L 337.233828 175.825179 
+Q 335.583828 175.825179 335.583828 177.475179 
+L 335.583828 187.798421 
+Q 335.583828 189.448421 337.233828 189.448421 
+z
+" style="fill: #ffffff"/>
+    </g>
+    <text style="font-size: 11px; font-family: 'Segoe UI', 'DejaVu Sans'; text-anchor: middle; fill: #7c3aed" x="340.6825" y="185.48348" transform="rotate(-0 340.6825 185.48348)">π</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 9.5px; font-family: 'Segoe UI', 'DejaVu Sans'; fill: #111827" transform="translate(295.035937 238.238713)">KH₂_GD</text>
+    <text style="font-size: 9.5px; font-family: 'Segoe UI', 'DejaVu Sans'; fill: #111827" transform="translate(271.479648 250.351121)">MaKH, HoTen, SDT,</text>
+    <text style="font-size: 9.5px; font-family: 'Segoe UI', 'DejaVu Sans'; fill: #111827" transform="translate(268.735781 262.522161)">Email, DiaChi, MaCN</text>
+    <text style="font-size: 9.5px; font-family: 'Segoe UI', 'DejaVu Sans'; fill: #111827" transform="translate(300.542969 274.598943)">@ S2</text>
+   </g>
+   <g id="patch_26">
+    <path d="M 371.260654 152.566375 
+Q 399.117665 182.636979 425.91095 211.559329 
+" style="fill: none; stroke: #7c3aed; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 424.659774 207.26578 
+L 425.91095 211.559329 
+L 421.725406 209.984141 
+z
+" style="fill: #7c3aed; stroke: #7c3aed; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="text_12">
+    <g id="patch_27">
+     <path d="M 395.668828 189.448421 
+L 402.566172 189.448421 
+Q 404.216172 189.448421 404.216172 187.798421 
+L 404.216172 177.475179 
+Q 404.216172 175.825179 402.566172 175.825179 
+L 395.668828 175.825179 
+Q 394.018828 175.825179 394.018828 177.475179 
+L 394.018828 187.798421 
+Q 394.018828 189.448421 395.668828 189.448421 
+z
+" style="fill: #ffffff"/>
+    </g>
+    <text style="font-size: 11px; font-family: 'Segoe UI', 'DejaVu Sans'; text-anchor: middle; fill: #7c3aed" x="399.1175" y="185.48348" transform="rotate(-0 399.1175 185.48348)">π</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 9.5px; font-family: 'Segoe UI', 'DejaVu Sans'; fill: #111827" transform="translate(413.286406 238.238713)">KH₂_TC</text>
+    <text style="font-size: 9.5px; font-family: 'Segoe UI', 'DejaVu Sans'; fill: #111827" transform="translate(388.201953 250.295457)">MaKH, HanMucNo,</text>
+    <text style="font-size: 9.5px; font-family: 'Segoe UI', 'DejaVu Sans'; fill: #111827" transform="translate(381.655859 262.016731)">CongNo, DiemTichLuy</text>
+    <text style="font-size: 9.5px; font-family: 'Segoe UI', 'DejaVu Sans'; fill: #111827" transform="translate(417.412969 274.598943)">@ S0</text>
+   </g>
+   <g id="patch_28">
+    <path d="M 371.837027 58.940721 
+Q 490.800439 89.004911 608.246312 118.685591 
+" style="fill: none; stroke: #d97706; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 604.858265 115.766493 
+L 608.246312 118.685591 
+L 603.878205 119.64457 
+z
+" style="fill: #d97706; stroke: #d97706; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="text_14">
+    <g id="patch_29">
+     <path d="M 454.739062 95.197183 
+L 526.860937 95.197183 
+Q 528.360937 95.197183 528.360937 93.697183 
+L 528.360937 84.312417 
+Q 528.360937 82.812417 526.860937 82.812417 
+L 454.739062 82.812417 
+Q 453.239062 82.812417 453.239062 84.312417 
+L 453.239062 93.697183 
+Q 453.239062 95.197183 454.739062 95.197183 
+z
+" style="fill: #ffffff"/>
+    </g>
+    <text style="font-size: 10px; font-family: 'Segoe UI', 'DejaVu Sans'; text-anchor: middle; fill: #d97706" x="490.8" y="91.592691" transform="rotate(-0 490.8 91.592691)">σ MaCN='CN03'</text>
+   </g>
+   <g id="text_15">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Segoe UI', 'DejaVu Sans'; text-anchor: middle; fill: #111827" x="611.7" y="138.758312" transform="rotate(-0 611.7 138.758312)">KH₃</text>
+   </g>
+   <g id="patch_30">
+    <path d="M 610.339346 152.566375 
+Q 582.482335 182.636979 555.68905 211.559329 
+" style="fill: none; stroke: #7c3aed; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 559.874594 209.984141 
+L 555.68905 211.559329 
+L 556.940226 207.26578 
+z
+" style="fill: #7c3aed; stroke: #7c3aed; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="text_16">
+    <g id="patch_31">
+     <path d="M 579.033828 189.448421 
+L 585.931172 189.448421 
+Q 587.581172 189.448421 587.581172 187.798421 
+L 587.581172 177.475179 
+Q 587.581172 175.825179 585.931172 175.825179 
+L 579.033828 175.825179 
+Q 577.383828 175.825179 577.383828 177.475179 
+L 577.383828 187.798421 
+Q 577.383828 189.448421 579.033828 189.448421 
+z
+" style="fill: #ffffff"/>
+    </g>
+    <text style="font-size: 11px; font-family: 'Segoe UI', 'DejaVu Sans'; text-anchor: middle; fill: #7c3aed" x="582.4825" y="185.48348" transform="rotate(-0 582.4825 185.48348)">π</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 9.5px; font-family: 'Segoe UI', 'DejaVu Sans'; fill: #111827" transform="translate(536.835938 238.238713)">KH₃_GD</text>
+    <text style="font-size: 9.5px; font-family: 'Segoe UI', 'DejaVu Sans'; fill: #111827" transform="translate(513.279648 250.351121)">MaKH, HoTen, SDT,</text>
+    <text style="font-size: 9.5px; font-family: 'Segoe UI', 'DejaVu Sans'; fill: #111827" transform="translate(510.535781 262.522161)">Email, DiaChi, MaCN</text>
+    <text style="font-size: 9.5px; font-family: 'Segoe UI', 'DejaVu Sans'; fill: #111827" transform="translate(542.342969 274.598943)">@ S3</text>
+   </g>
+   <g id="patch_32">
+    <path d="M 613.060654 152.566375 
+Q 640.917665 182.636979 667.71095 211.559329 
+" style="fill: none; stroke: #7c3aed; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 666.459774 207.26578 
+L 667.71095 211.559329 
+L 663.525406 209.984141 
+z
+" style="fill: #7c3aed; stroke: #7c3aed; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="text_18">
+    <g id="patch_33">
+     <path d="M 637.468828 189.448421 
+L 644.366172 189.448421 
+Q 646.016172 189.448421 646.016172 187.798421 
+L 646.016172 177.475179 
+Q 646.016172 175.825179 644.366172 175.825179 
+L 637.468828 175.825179 
+Q 635.818828 175.825179 635.818828 177.475179 
+L 635.818828 187.798421 
+Q 635.818828 189.448421 637.468828 189.448421 
+z
+" style="fill: #ffffff"/>
+    </g>
+    <text style="font-size: 11px; font-family: 'Segoe UI', 'DejaVu Sans'; text-anchor: middle; fill: #7c3aed" x="640.9175" y="185.48348" transform="rotate(-0 640.9175 185.48348)">π</text>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 9.5px; font-family: 'Segoe UI', 'DejaVu Sans'; fill: #111827" transform="translate(655.086406 238.238713)">KH₃_TC</text>
+    <text style="font-size: 9.5px; font-family: 'Segoe UI', 'DejaVu Sans'; fill: #111827" transform="translate(630.001953 250.295457)">MaKH, HanMucNo,</text>
+    <text style="font-size: 9.5px; font-family: 'Segoe UI', 'DejaVu Sans'; fill: #111827" transform="translate(623.455859 262.016731)">CongNo, DiemTichLuy</text>
+    <text style="font-size: 9.5px; font-family: 'Segoe UI', 'DejaVu Sans'; fill: #111827" transform="translate(659.212969 274.598943)">@ S0</text>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 12.5px; font-family: 'Segoe UI', 'DejaVu Sans'; text-anchor: middle; fill: #111827" x="369.9" y="332.448" transform="rotate(-0 369.9 332.448)">KhachHang = ⋃ᵢ ( KHᵢ_GD ⋈_MaKH KHᵢ_TC )</text>
+   </g>
+   <g id="text_21">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Segoe UI', 'DejaVu Sans'; text-anchor: start; fill: #111827" x="15.26" y="22.9696" transform="rotate(-0 15.26 22.9696)">Phân mảnh hỗn hợp HV (ngang → dọc)</text>
+   </g>
+   <g id="text_22">
+    <text style="font-size: 9.5px; font-family: 'Segoe UI', 'DejaVu Sans'; text-anchor: start; fill: #111827" x="314.286" y="358.755813" transform="rotate(-0 314.286 358.755813)">S0 – Trụ sở</text>
+   </g>
+   <g id="text_23">
+    <text style="font-size: 9.5px; font-family: 'Segoe UI', 'DejaVu Sans'; text-anchor: start; fill: #111827" x="423.096" y="358.697922" transform="rotate(-0 423.096 358.697922)">S1 – Hà Nội</text>
+   </g>
+   <g id="text_24">
+    <text style="font-size: 9.5px; font-family: 'Segoe UI', 'DejaVu Sans'; text-anchor: start; fill: #111827" x="531.906" y="359.076345" transform="rotate(-0 531.906 359.076345)">S2 – Đà Nẵng</text>
+   </g>
+   <g id="text_25">
+    <text style="font-size: 9.5px; font-family: 'Segoe UI', 'DejaVu Sans'; text-anchor: start; fill: #111827" x="640.716" y="358.560896" transform="rotate(-0 640.716 358.560896)">S3 – TP.HCM</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p04c9913aec">
+   <rect x="7.2" y="7.2" width="725.4" height="354.816"/>
+  </clipPath>
+ </defs>
+</svg>
