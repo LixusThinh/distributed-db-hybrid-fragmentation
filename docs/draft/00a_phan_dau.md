@@ -1,6 +1,6 @@
 # LỜI CẢM ƠN
 
-Để hoàn thành đồ án môn học Cơ Sở Dữ Liệu Nâng Cao, nhóm chúng em xin gửi lời cảm ơn chân thành đến thầy Nguyễn Văn Danh, giảng viên hướng dẫn. Trong suốt quá trình học tập và thực hiện đề tài, thầy đã tận tình giảng dạy, định hướng và góp ý, giúp nhóm hiểu rõ hơn các vấn đề trong thiết kế cơ sở dữ liệu phân tán.
+Để hoàn thành đồ án môn học Cơ Sở Dữ Liệu Nâng Cao, nhóm chúng em xin gửi lời cảm ơn chân thành đến thầy Th.S Nguyễn Văn Danh, giảng viên hướng dẫn. Trong suốt quá trình học tập và thực hiện đề tài, thầy đã tận tình giảng dạy, định hướng và góp ý, giúp nhóm hiểu rõ hơn các vấn đề trong thiết kế cơ sở dữ liệu phân tán.
 
 Nhóm cũng xin cảm ơn Khoa Công nghệ Thông tin, Trường Đại học Công nghệ TP. Hồ Chí Minh đã tạo điều kiện về môi trường học tập và tài liệu tham khảo.
 
