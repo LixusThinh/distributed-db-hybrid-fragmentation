@@ -491,7 +491,7 @@ async function main() {
     const s = content("Ứng dụng", "4 · ỨNG DỤNG CHO QUẢN LÝ ĐƠN HÀNG", "Demo trên SQL Server");
     const rows = [["FaDatabase", "Mỗi site là **một database**: QLDH_TRUSO, QLDH_HN, QLDH_DN, QLDH_HCM"],
       ["FaLink", "Trụ sở dùng **synonym** + **view tái thiết** → trong suốt phân mảnh và vị trí"],
-      ["FaCircleCheck", "Kiểm tra tự động **3 quy tắc đúng đắn**: 13/13 **ĐẠT**"],
+      ["FaCircleCheck", "Kiểm tra tự động **3 quy tắc đúng đắn**: 14/14 **ĐẠT**"],
       ["FaShieldHalved", "Vị từ ràng buộc bằng **CHECK**; chi nhánh **không có cột lương**"],
       ["FaRotate", "Giao dịch phân tán: lập đơn + cập nhật công nợ **cùng thành công hoặc cùng hủy**"]];
     for (const [i, [ic, t]] of rows.entries()) {
@@ -499,13 +499,23 @@ async function main() {
       await iconDot(s, ic, M, y, 0.56, i === 2 ? C.accent4 : C.text1);
       text(s, t, { x: M + 0.8, y: y - 0.08, w: 5.1, h: 0.75, fontSize: 16, valign: "middle" });
     }
-    const shots = ["demo_01_object_explorer", "demo_05_kiem_tra_dung_dan", "demo_07_truy_van_toan_cuc", "demo_08_giao_dich"];
+    const shots = ["slide15_1_object_explorer", "slide15_2_kiem_tra", "slide15_3_toan_cuc", "slide15_4_giao_dich"];  // cắt từ ảnh demo_01, 05, 07, 08
     const sw = 2.95, sh = 2.3, gx = 6.85;
     shots.forEach((f, i) => {
       const x = gx + (i % 2) * (sw + 0.18), y = 1.75 + Math.floor(i / 2) * (sh + 0.2);
-      s.addShape(pres.shapes.ROUNDED_RECTANGLE, { x, y, w: sw, h: sh, rectRadius: 0.1, fill: { color: C.background2 },
-        line: { color: HEX.dk2, width: 1.25, dashType: "dash" }, objectName: "khung-anh-demo" });
-      text(s, `Chèn ảnh: ${f}.png`, { x: x + 0.15, y, w: sw - 0.3, h: sh, fontSize: 12, color: C.text2, align: "center", valign: "middle" });
+      const file = path.join(ROOT, "assets", "screenshots", `${f}.png`);
+      if (fs.existsSync(file)) {
+        // ảnh chụp SSMS thật: co vừa khung, giữ tỉ lệ, căn giữa
+        const b = fs.readFileSync(file), iw = b.readUInt32BE(16), ih = b.readUInt32BE(20);
+        const k = Math.min((sw - 0.1) / iw, (sh - 0.1) / ih), w = iw * k, h = ih * k;
+        s.addShape(pres.shapes.RECTANGLE, { x, y, w: sw, h: sh, fill: { color: C.background2 },
+          line: { color: HEX.dk2, width: 0.75 }, objectName: "khung-anh-demo" });
+        s.addImage({ path: file, x: x + (sw - w) / 2, y: y + (sh - h) / 2, w, h, objectName: f });
+      } else {
+        s.addShape(pres.shapes.ROUNDED_RECTANGLE, { x, y, w: sw, h: sh, rectRadius: 0.1, fill: { color: C.background2 },
+          line: { color: HEX.dk2, width: 1.25, dashType: "dash" }, objectName: "khung-anh-demo" });
+        text(s, `Chèn ảnh: ${f}.png`, { x: x + 0.15, y, w: sw - 0.3, h: sh, fontSize: 12, color: C.text2, align: "center", valign: "middle" });
+      }
     });
   }
 

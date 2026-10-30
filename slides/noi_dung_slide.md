@@ -287,7 +287,7 @@
 **Trên slide**
 - Mô phỏng: mỗi site là **một database**: `QLDH_TRUSO`, `QLDH_HN`, `QLDH_DN`, `QLDH_HCM`
 - Trụ sở dùng **synonym** + **view tái thiết** (`v_KhachHang`, `v_NhanVien`, `v_DonHang`), tức là **trong suốt phân mảnh và vị trí**
-- Kiểm tra tự động **3 quy tắc đúng đắn**: 13/13 **ĐẠT**
+- Kiểm tra tự động **3 quy tắc đúng đắn**: 14/14 **ĐẠT**
 - Vị từ phân mảnh được ràng buộc bằng **CHECK**; chi nhánh **không có cột lương**
 - Giao dịch phân tán: lập đơn ở chi nhánh + cập nhật công nợ ở trụ sở, **cùng thành công hoặc cùng hủy**
 
@@ -296,7 +296,7 @@
 **Lời thuyết trình**
 > Nhóm cài đặt thiết kế này trên SQL Server. Mỗi site được mô phỏng bằng một database riêng: trụ sở, Hà Nội, Đà Nẵng và TP.HCM. Dữ liệu được phân mảnh từ một CSDL gốc, đúng theo các biểu thức đại số vừa trình bày.
 > Ở trụ sở, nhóm tạo synonym trỏ tới các mảnh ở chi nhánh, rồi tạo view tái thiết dựa trên synonym đó. Người dùng chỉ cần truy vấn view khách hàng như một bảng bình thường, không cần biết dữ liệu nằm ở mảnh nào hay ở site nào.
-> Để chứng minh phân mảnh đúng, nhóm viết các truy vấn tự kiểm tra ba quy tắc. Kết quả là cả 13 phép kiểm tra đều đạt. Nhóm cũng ghi điều kiện phân mảnh thành ràng buộc CHECK, nên mảnh Hà Nội không nhận khách của chi nhánh khác. Chi nhánh truy vấn cột lương sẽ bị báo lỗi, vì cột đó không tồn tại ở chi nhánh.
+> Để chứng minh phân mảnh đúng, nhóm viết các truy vấn tự kiểm tra ba quy tắc. Kết quả là cả 14 phép kiểm tra đều đạt. Nhóm cũng ghi điều kiện phân mảnh thành ràng buộc CHECK, nên mảnh Hà Nội không nhận khách của chi nhánh khác. Chi nhánh truy vấn cột lương sẽ bị báo lỗi, vì cột đó không tồn tại ở chi nhánh.
 > Cuối cùng là một giao dịch phân tán: chi nhánh lập đơn và trụ sở cập nhật công nợ. Nếu đơn vượt hạn mức, cả hai site cùng hủy, không có site nào bị ghi dở.
 
 ---
@@ -337,7 +337,7 @@
 > Khác nhau ở chỗ nút nào được chia tiếp. Với KhachHang, phần tài chính cũng cần tách theo miền để kế toán báo cáo theo miền, nên chia ngang trước rồi mới chia dọc từng mảnh (HV). Với NhanVien, phần nhân sự xử lý tập trung, không cần chia theo chi nhánh, nên chia dọc trước và chỉ chia ngang phần công việc (VH). Hơn nữa, NV_NS không có cột MaCN nên cũng không chia ngang trực tiếp theo chi nhánh được.
 
 **3. "Làm sao chứng minh phân mảnh là đúng?"**
-> Đầy đủ: tập vị từ MaCN = CN01/CN02/CN03 phủ hết miền giá trị (có ràng buộc CHECK), và hợp các nhóm cột bằng toàn bộ cột. Tái thiết: ghép theo khóa chính thì không mất và không thừa bộ. Rời nhau: các vị từ loại trừ nhau, và hai mảnh dọc chỉ dùng chung khóa. Demo kiểm tra cả ba quy tắc bằng EXCEPT và GROUP BY … HAVING, kết quả 13/13 đạt.
+> Đầy đủ: tập vị từ MaCN = CN01/CN02/CN03 phủ hết miền giá trị (có ràng buộc CHECK), và hợp các nhóm cột bằng toàn bộ cột. Tái thiết: ghép theo khóa chính thì không mất và không thừa bộ. Rời nhau: các vị từ loại trừ nhau, và hai mảnh dọc chỉ dùng chung khóa. Demo kiểm tra cả ba quy tắc bằng EXCEPT và GROUP BY … HAVING, kết quả 14/14 đạt.
 
 **4. "Sao dùng UNION ALL chứ không dùng UNION trong view?"**
 > Vì các mảnh ngang rời nhau nên không có bộ trùng để loại. UNION ALL cho cùng kết quả mà không tốn chi phí sắp xếp để khử trùng lặp.

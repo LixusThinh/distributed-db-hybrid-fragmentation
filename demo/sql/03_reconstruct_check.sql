@@ -256,5 +256,5 @@ SELECT STT, QuanHe, QuyTac, MoTa, SoDongLech,
        CASE WHEN SoDongLech = 0 THEN N'ĐẠT' ELSE N'KHÔNG ĐẠT' END AS KetQua
 FROM @KQ
 ORDER BY STT;
--- Mong đợi: 13 dòng, tất cả SoDongLech = 0, KetQua = ĐẠT
+-- Mong đợi: 14 dòng, tất cả SoDongLech = 0, KetQua = ĐẠT
 GO
