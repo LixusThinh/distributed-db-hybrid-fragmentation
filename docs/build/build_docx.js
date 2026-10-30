@@ -23,7 +23,12 @@ const {
 
 const ROOT = path.resolve(__dirname, "..", "..");
 const DRAFT = path.join(ROOT, "docs", "draft");
-const OUT = path.join(ROOT, "docs", "BaoCao_PhanManhHonHop.docx");
+// node build_docx.js --short → bản rút gọn (< 30 trang): nội dung lấy từ docs/draft_short/,
+// file nào không có ở đó (phần đầu, tài liệu tham khảo) thì dùng chung với bản đầy đủ
+const SHORT = process.argv.includes("--short");
+const DRAFT_SHORT = path.join(ROOT, "docs", "draft_short");
+const OUT = path.join(ROOT, "docs", SHORT ? "BaoCao_PhanManhHonHop_RutGon.docx" : "BaoCao_PhanManhHonHop.docx");
+const draftFile = (f) => (SHORT && fs.existsSync(path.join(DRAFT_SHORT, f)) ? path.join(DRAFT_SHORT, f) : path.join(DRAFT, f));
 
 const FONT = "Times New Roman";
 const MATH_FONT = "Cambria Math";
@@ -35,7 +40,7 @@ const LINE = 312; // giãn dòng 1.3 (240 = đơn)
 const COVER = {
   gvhd: "ThS. Nguyễn Văn Danh",
   sv: [["Trần Gia Thịnh", "2380602136"], ["Phạm Minh Triết", "2380605829"]],
-  lop: "………………",
+  lop: "23DTHE3",
   title: "TÌM HIỂU PHÂN MẢNH HỖN HỢP TRONG CSDL PHÂN TÁN VÀ ỨNG DỤNG CHO QUẢN LÝ ĐƠN HÀNG",
   ngay: "TP. Hồ Chí Minh, tháng 10 năm 2026",
 };
@@ -101,7 +106,7 @@ function pngSize(file) {
 function image(rel) {
   const file = path.join(ROOT, rel);
   const { w, h } = pngSize(file);
-  const maxW = 590, maxH = 620; // pixel ở 96 dpi, vừa khung chữ 16cm
+  const maxW = 590, maxH = SHORT ? 300 : 620; // pixel ở 96 dpi, vừa khung chữ 16cm; bản rút gọn hạ chiều cao hình
   const s = Math.min(maxW / w, maxH / h);
   return new Paragraph({
     alignment: AlignmentType.CENTER, keepNext: true, spacing: { before: 120, after: 60 },
@@ -164,7 +169,7 @@ function render(files, { front = false } = {}) {
   let chapter = 0, nFig = 0, nTab = 0, listId = 0;
   let pendingCaption = null;
   for (const f of files) {
-    const lines = fs.readFileSync(path.join(DRAFT, f), "utf8").replace(/^﻿/, "").split(/\r?\n/);
+    const lines = fs.readFileSync(draftFile(f), "utf8").replace(/^﻿/, "").split(/\r?\n/);
     for (let i = 0; i < lines.length; i++) {
       const line = lines[i];
       const t = line.trim();
@@ -271,9 +276,12 @@ function cover() {
     c("BỘ GIÁO DỤC VÀ ĐÀO TẠO", 26),
     c("TRƯỜNG ĐẠI HỌC CÔNG NGHỆ TP. HỒ CHÍ MINH", 26),
     c("KHOA CÔNG NGHỆ THÔNG TIN", 26, true, 900),
-    new Paragraph({ alignment: AlignmentType.CENTER, spacing: { after: 900 },
-      children: [new TextRun({ text: "[Chèn logo HUTECH]", italics: true, highlight: "yellow" })] }),
-    c("ĐỒ ÁN MÔN HỌC", 32, true, 60),
+    (() => { // logo HUTECH rộng khoảng 7,5 cm
+      const logo = path.join(ROOT, "assets", "logo_hutech.png"), { w, h } = pngSize(logo), lw = 285;
+      return new Paragraph({ alignment: AlignmentType.CENTER, spacing: { after: 700 },
+        children: [new ImageRun({ type: "png", data: fs.readFileSync(logo), transformation: { width: lw, height: Math.round(lw * h / w) } })] });
+    })(),
+    c(SHORT ? "ĐỒ ÁN MÔN HỌC – BẢN RÚT GỌN" : "ĐỒ ÁN MÔN HỌC", 32, true, 60),
     c("CƠ SỞ DỮ LIỆU NÂNG CAO", 36, true, 1000),
     new Paragraph({ alignment: AlignmentType.CENTER, spacing: { after: 1400, line: 360 },
       children: [new TextRun({ text: COVER.title, size: 34, bold: true, color: "1F3864" })] }),
@@ -289,18 +297,21 @@ function cover() {
 // ------------------------------------------------------------------ tài liệu
 const frontTitle = (text) => new Paragraph({ style: "TitleFront", pageBreakBefore: true, children: [new TextRun(text)] });
 
+// bản rút gọn: mục lục chỉ 2 cấp, danh mục bảng chung trang với danh mục hình, không có phụ lục
+const sameTitle = (text) => new Paragraph({ style: "TitleFront", spacing: { before: 480, after: 360 }, children: [new TextRun(text)] });
 const frontBlocks = [
   ...render(["00a_phan_dau.md"], { front: true }),
   frontTitle("MỤC LỤC"),
-  new TableOfContents("Mục lục", { hyperlink: true, headingStyleRange: "1-3" }),
+  new TableOfContents("Mục lục", { hyperlink: true, headingStyleRange: SHORT ? "1-2" : "1-3" }),
   ...render(["00b_viet_tat.md"], { front: true }),
   frontTitle("DANH MỤC HÌNH"),
   new TableOfContents("Danh mục hình", { hyperlink: true, stylesWithLevels: [new StyleLevel("CaptionHinh", 1)] }),
-  frontTitle("DANH MỤC BẢNG"),
+  (SHORT ? sameTitle : frontTitle)("DANH MỤC BẢNG"),
   new TableOfContents("Danh mục bảng", { hyperlink: true, stylesWithLevels: [new StyleLevel("CaptionBang", 1)] }),
 ];
 
-const mainBlocks = render(["01_mo_dau.md", "ch1.md", "ch2.md", "ch3.md", "ch4.md", "ch5.md", "09_tltk.md", "10_phu_luc.md"]);
+const mainBlocks = render(["01_mo_dau.md", "ch1.md", "ch2.md", "ch3.md", "ch4.md", "ch5.md", "09_tltk.md",
+  ...(SHORT ? [] : ["10_phu_luc.md"])]);
 
 const margins = { top: 1134, bottom: 1134, left: 1701, right: 1134, header: 567, footer: 567 };
 const pageFooter = new Footer({ children: [new Paragraph({ alignment: AlignmentType.CENTER, children: [new TextRun({ children: [PageNumber.CURRENT], size: 24 })] })] });

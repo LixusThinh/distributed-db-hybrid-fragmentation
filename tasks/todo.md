@@ -26,7 +26,7 @@
 **Kiểm tra:** mở từng file PNG, chữ đọc rõ khi thu nhỏ còn nửa slide
 **Phụ thuộc:** không · **File:** `assets/diagrams/*.svg`, `*.png` · **Quy mô:** M
 
-### T3: SQL – lược đồ toàn cục, dữ liệu mẫu, tạo mảnh ✅ (26/10 – chưa chạy trên SQL Server)
+### T3: SQL – lược đồ toàn cục, dữ liệu mẫu, tạo mảnh ✅ (26/10; chạy thật trên SQL Server 30/10)
 **Người làm:** Claude · **Hạn:** T3 27/10
 **Tiêu chí hoàn thành:**
 - [x] `01_global_schema.sql` tạo `QLDH_GOC` gồm 6 bảng, có khóa, khóa ngoại, CHECK trên MaCN; khoảng 30 khách hàng, 12 nhân viên, 10 sản phẩm, 40 đơn hàng, dữ liệu chia đều 3 miền
@@ -35,7 +35,7 @@
 **Kiểm tra:** Triết chạy thử ở T5. Comment trong script ghi sẵn số dòng mong đợi của từng mảnh
 **Phụ thuộc:** không · **File:** `demo/sql/01_global_schema.sql`, `demo/sql/02_fragments.sql` · **Quy mô:** S
 
-### T4: SQL – tái thiết, kiểm tra đúng đắn, truy vấn minh họa ✅ (26/10 – chưa chạy trên SQL Server)
+### T4: SQL – tái thiết, kiểm tra đúng đắn, truy vấn minh họa ✅ (26/10; chạy thật 30/10 – kiểm tra 14/14 ĐẠT)
 **Người làm:** Claude · **Hạn:** T3 27/10
 **Tiêu chí hoàn thành:**
 - [x] `03_reconstruct_check.sql`: synonym tại S0 trỏ tới từng mảnh ở các site; view `v_KhachHang`, `v_NhanVien`, `v_DonHang` chỉ tham chiếu synonym, không gọi thẳng tên database; 3 nhóm truy vấn kiểm tra đầy đủ, tái thiết, rời nhau, kết quả mong đợi là chênh lệch 0 dòng
@@ -54,35 +54,35 @@
 **Phụ thuộc:** T5; 2 laptop cùng mạng Wi-Fi, mở firewall port 1433 · **File:** `demo/sql/05_linked_server.sql` · **Quy mô:** S
 
 ### ✅ Checkpoint A – tối T3 27/10
-- [ ] Thịnh và Triết đọc `slides/noi_dung_slide.md`, góp ý gửi cho Claude
-- [ ] **Triết cài xong SQL Server 2022 Developer + SSMS** (việc này làm ngay từ T3, không đợi)
+- [x] Thịnh và Triết đọc `slides/noi_dung_slide.md`, góp ý gửi cho Claude
+- [x] **Triết cài xong SQL Server 2022 Developer + SSMS** (việc này làm ngay từ T3, không đợi) → thay bằng: 30/10 cài SQL Server 2022 **Express** + SSMS 21 trên máy Thịnh
 
 ---
 
 ## Phase 2 – Demo, dựng slide, Word (T4 28/10 – T5 29/10)
 
-### T5: Chạy demo và chụp màn hình
+### T5: Chạy demo và chụp màn hình ✅ (30/10 – 9 ảnh SSMS)
 **Người làm:** Triết · **Hạn:** **chạy thử ngay T3 27/10**, chụp ảnh T4 28/10
 > ⚠️ Script chưa từng chạy trên SQL Server (máy Claude không có), nên lần chạy đầu của Triết là lần thử thật. Chạy càng sớm càng tốt; lỗi gì thì **chụp hoặc copy nguyên thông báo lỗi** (tab Messages) gửi lại cho Claude sửa.
 **Tiêu chí hoàn thành:**
-- [ ] Chạy lần lượt 4 script không có lỗi
-- [ ] Chụp ít nhất 6 ảnh: Object Explorer hiện 5 database; nội dung 1 mảnh GD và 1 mảnh TC; view tái thiết; kết quả kiểm tra đúng đắn (0 dòng); 1 truy vấn cục bộ; 1 truy vấn toàn cục
-- [ ] Lưu ảnh vào `assets/screenshots/` theo tên `demo_01_....png`
+- [x] Chạy lần lượt 4 script không có lỗi
+- [x] Chụp ít nhất 6 ảnh: Object Explorer hiện 5 database; nội dung 1 mảnh GD và 1 mảnh TC; view tái thiết; kết quả kiểm tra đúng đắn (0 dòng); 1 truy vấn cục bộ; 1 truy vấn toàn cục
+- [x] Lưu ảnh vào `assets/screenshots/` theo tên `demo_01_....png`
 **Kiểm tra:** số dòng của từng mảnh khớp với comment trong script
 **Phụ thuộc:** T3, T4, Checkpoint A · **Quy mô:** S
 
-### T6: Dựng slide 1–9 (lý thuyết)
+### T6: Dựng slide 1–9 (lý thuyết) ✅ (29/10 – Claude dựng)
 **Người làm:** Thịnh · **Hạn:** T5 29/10
 **Tiêu chí hoàn thành:**
-- [ ] Dùng chung template/theme với Triết (chốt template trước khi chia nhau làm)
-- [ ] Chèn sơ đồ từ T2; lời thuyết trình dán vào phần Notes của từng slide
+- [x] Dùng chung template/theme với Triết (chốt template trước khi chia nhau làm)
+- [x] Chèn sơ đồ từ T2; lời thuyết trình dán vào phần Notes của từng slide
 **Phụ thuộc:** T1, T2 · **Quy mô:** M
 
-### T7: Dựng slide 10–17 (ứng dụng + demo)
+### T7: Dựng slide 10–17 (ứng dụng + demo) ✅ (29/10 – Claude dựng; ảnh demo slide 15 chèn 30/10)
 **Người làm:** Triết · **Hạn:** T5 29/10
 **Tiêu chí hoàn thành:**
-- [ ] Cùng template với T6; chèn sơ đồ T2 và ảnh demo T5 vào slide 15
-- [ ] Lời thuyết trình dán vào Notes
+- [x] Cùng template với T6; chèn sơ đồ T2 và ảnh demo T5 vào slide 15
+- [x] Lời thuyết trình dán vào Notes
 **Phụ thuộc:** T1, T2, T5 · **Quy mô:** M
 
 ### T8: Word – phần đầu, Lời mở đầu, Chương 1–2 ✅ (26/10)
@@ -100,24 +100,24 @@
 **Phụ thuộc:** T2 · **File:** `docs/draft/ch3.md` · **Quy mô:** M
 
 ### ✅ Checkpoint B – tối T5 29/10
-- [ ] Đủ 17 slide (ghép phần của 2 người), ảnh demo đã có trên slide 15
-- [ ] Bản nháp Ch1–3 đã xong
+- [x] Đủ 17 slide (ghép phần của 2 người), ảnh demo đã có trên slide 15
+- [x] Bản nháp Ch1–3 đã xong
 
 ---
 
 ## Phase 3 – Hoàn thiện (T6 30/10 – T7 31/10)
 
-### T10: Word – Chương 4–5, Tài liệu tham khảo, Phụ lục 🟡 (26/10 – đã viết, còn chèn 6 ảnh demo)
+### T10: Word – Chương 4–5, Tài liệu tham khảo, Phụ lục ✅ (ảnh demo chèn 30/10)
 **Người làm:** Claude · **Hạn:** T6 30/10
 **Tiêu chí hoàn thành:**
-- [ ] Ch4 đủ các mục 4.1–4.8, chèn ảnh demo; Ch5; TLTK định dạng IEEE; Phụ lục chứa toàn bộ script
+- [x] Ch4 đủ các mục 4.1–4.8, chèn ảnh demo; Ch5; TLTK định dạng IEEE; Phụ lục chứa toàn bộ script
 **Phụ thuộc:** T4, T5 · **File:** `docs/draft/ch4_ch5.md` · **Quy mô:** M
 
-### T11: Ghép file .docx và rà soát 🟡 (26/10 – bản nháp 1 đã build, build lại sau khi có ảnh + tên lớp)
+### T11: Ghép file .docx và rà soát 🟡 (30/10 – đã build lại có ảnh, 64 trang; còn tên lớp + logo HUTECH)
 **Người làm:** Claude · **Hạn:** T6 30/10
 **Tiêu chí hoàn thành:**
-- [ ] `docs/BaoCao_PhanManhHonHop.docx`: Times New Roman 13, giãn dòng 1.3, lề 3/2/2/2 cm; mục lục tự động; đánh số hình/bảng theo chương; có số trang
-- [ ] Bản PDF xuất kèm
+- [x] `docs/BaoCao_PhanManhHonHop.docx`: Times New Roman 13, giãn dòng 1.3, lề 3/2/2/2 cm; mục lục tự động; đánh số hình/bảng theo chương; có số trang
+- [x] Bản PDF xuất kèm
 **Kiểm tra:** mở file, kiểm tra mục lục và danh mục hình; tổng 30–40 trang
 **Phụ thuộc:** T8, T9, T10 · **Quy mô:** S
 

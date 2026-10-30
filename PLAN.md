@@ -4,7 +4,7 @@
 **Trường:** HUTECH – Khoa Công nghệ Thông tin
 **GVHD:** ThS. Nguyễn Văn Danh
 **Nhóm (2 người):** Trần Gia Thịnh (2380602136) · Phạm Minh Triết (2380605829)
-**Lớp:** *(chưa có)*
+**Lớp:** 23DTHE3
 **Ngày lập kế hoạch:** 26/10/2026
 
 ---
@@ -60,3 +60,5 @@ Toàn bộ task, người làm, hạn và tiêu chí hoàn thành nằm ở **`t
 - **29/10/2026** — Claude dựng luôn file slide (thay cho T6, T7 nhóm tự dựng): `slides/Slide_PhanManhHonHop.pptx` + `.pdf`, 17 slide 16:9, lời thuyết trình nằm sẵn trong Notes. Build bằng `slides/build/build_pptx.js` (đọc Notes từ `noi_dung_slide.md`, hình từ `assets/diagrams/`); `slides/build/render.ps1` xuất PNG/PDF qua PowerPoint để soát. Còn thiếu: 4 khung ảnh demo ở slide 15 (nét đứt, ghi tên file cần chèn), logo HUTECH ở bìa (chưa chèn). Báo cáo Word không đổi so với bản nháp 1 (26/10). Vẫn chưa ai chạy SQL trên SQL Server, nên "13/13 ĐẠT" ở slide 15 và các bảng số liệu Ch4 **chưa được kiểm chứng**.
 - **29/10/2026 (2)** — Chốt học vị GVHD: **ThS. Nguyễn Văn Danh**. Sửa ở bìa và lời cảm ơn của Word, bìa slide, nội dung slide, README, kế hoạch; build lại `.docx`, `.pptx` và cả hai `.pdf`.
 - **30/10/2026** — Cài SQL Server 2022 Express + SSMS 21 lên máy Thịnh và **chạy thật cả 4 script**: không lỗi, mọi con số trong Ch4 và slide khớp kết quả thật. Chỉ lệch một chỗ: phần kiểm tra đúng đắn có **14** phép (thêm ChiTietDonHang), không phải 13 → sửa thành 14/14 ở ch4.md (thêm dòng 14 vào Bảng 4.8), slide 15, Q&A, `03_reconstruct_check.sql`, `demo/README.md`. Chụp 9 ảnh SSMS vào `assets/screenshots/` (thêm `demo_04` và `demo_09`), thay hết 6 chỗ `[[ẢNH]]` trong Ch4 bằng hình, môi trường ghi đúng bản Express. Slide 15 chèn 4 ảnh cắt `slide15_*.png`. Build lại `.docx` (64 trang), `.pptx` và hai `.pdf`. Còn thiếu: logo HUTECH, tên lớp.
+- **30/10/2026 (2)** — Thầy yêu cầu thêm **bản rút gọn < 30 trang**. `docs/draft_short/` là **trích nguyên văn** từ `docs/draft/` (giữ giọng văn, chỉ bỏ bớt mục/đoạn, đánh lại số hình/bảng/mục tham chiếu); phần đầu và TLTK dùng chung. Build: `node build_docx.js --short` rồi `finalize_word.ps1 -Name BaoCao_PhanManhHonHop_RutGon.docx` → **28 trang tính cả bìa** (mục lục 2 cấp, không phụ lục, 2 ảnh demo, hình thu nhỏ). Sửa nội dung bản đầy đủ thì nhớ sửa đoạn tương ứng trong `draft_short/`.
+- **30/10/2026 (3)** — Điền lớp **23DTHE3**, chèn logo HUTECH (`assets/logo_hutech.png`, cắt từ `D:\Projects\logo hutech\logo CMYK-01.png`) vào bìa 2 bản Word và bìa slide; build lại tất cả.
