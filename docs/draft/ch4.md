@@ -155,7 +155,7 @@ Với lược đồ cấp phát này, mức độ cục bộ của các ứng d�
 
 ### 4.7.1 Môi trường và cách mô phỏng
 
-- Hệ quản trị: Microsoft SQL Server 2022 (bản Developer), công cụ SQL Server Management Studio.
+- Hệ quản trị: Microsoft SQL Server 2022 Express (phiên bản 16.0.1000), công cụ SQL Server Management Studio 21. Toàn bộ kết quả trong mục này là kết quả chạy thật trên môi trường đó.
 - Mỗi site được mô phỏng bằng một CSDL riêng trên cùng một instance: QLDH_TRUSO (S0), QLDH_HN (S1), QLDH_DN (S2), QLDH_HCM (S3). Thêm CSDL QLDH_GOC chứa lược đồ toàn cục và dữ liệu ban đầu, dùng làm chuẩn để đối chiếu.
 - Dữ liệu mẫu: 3 chi nhánh, 30 khách hàng (10 khách mỗi chi nhánh), 12 nhân viên (4 người mỗi chi nhánh), 10 sản phẩm, 45 đơn hàng (15 đơn mỗi chi nhánh) với 97 dòng chi tiết. Dữ liệu được sinh bằng một chương trình Python với seed cố định, nên chạy lại luôn cho cùng kết quả.
 - Bốn script được chạy theo thứ tự (Bảng 4.6).
@@ -208,9 +208,9 @@ Bảng: Số bộ trong các mảnh sau khi phân mảnh
 | S2 – QLDH_DN | KH₂_GD: 10 · NV_CV₂: 4 · DH₂: 15 · CTDH₂: 37 |
 | S3 – QLDH_HCM | KH₃_GD: 10 · NV_CV₃: 4 · DH₃: 15 · CTDH₃: 31 |
 
-[[ẢNH: demo_01_object_explorer.png – Object Explorer hiển thị 5 CSDL và các bảng mảnh]]
+![Object Explorer hiển thị 5 CSDL, các bảng mảnh tại S1 và S0, cùng kết quả đếm số bộ của 16 mảnh](assets/screenshots/demo_01_object_explorer.png)
 
-[[ẢNH: demo_03_manh_GD_TC.png – Nội dung mảnh KH_1_GD (tại S1) và KH_1_TC (tại S0)]]
+![Nội dung mảnh KH_1_GD (tại S1, thông tin giao dịch) và KH_1_TC (tại S0, thông tin tài chính)](assets/screenshots/demo_03_manh_GD_TC.png)
 
 ### 4.7.3 Tái thiết và kiểm tra tính đúng đắn
 
@@ -232,15 +232,17 @@ CREATE OR ALTER VIEW dbo.v_KhachHang AS
 
 View v_NhanVien cài đặt công thức của chiến lược VH: hợp ba mảnh NV_CVᵢ trước, sau đó kết nối với NV_NS. View v_DonHang và v_ChiTietDonHang là phép hợp các mảnh dẫn xuất. Người dùng tại trụ sở truy vấn các view này như truy vấn trên quan hệ toàn cục, không cần biết dữ liệu được chia thành những mảnh nào và nằm ở site nào. Đó là **trong suốt phân mảnh** và **trong suốt vị trí**.
 
+![Truy vấn view tái thiết v_KhachHang: mỗi dòng ghép cột giao dịch (ở chi nhánh) với cột tài chính (ở trụ sở)](assets/screenshots/demo_04_view_tai_thiet.png)
+
 Việc dùng synonym thay vì viết thẳng tên CSDL có một lợi ích quan trọng. Khi chuyển sang chạy trên nhiều máy thật, chỉ cần tạo Linked Server và tạo lại synonym trỏ tới tên bốn phần, chẳng hạn [MAY_HN].QLDH_HN.dbo.KH_1_GD. Các view và truy vấn giữ nguyên.
 
-Để kiểm tra tính đúng đắn, nhóm viết 13 truy vấn so sánh dữ liệu trong các mảnh với CSDL gốc QLDH_GOC:
+Để kiểm tra tính đúng đắn, nhóm viết 14 truy vấn so sánh dữ liệu trong các mảnh với CSDL gốc QLDH_GOC:
 
 - **Đầy đủ:** đếm số bộ của quan hệ gốc không thuộc mảnh ngang nào; đếm số thuộc tính của quan hệ gốc không thuộc mảnh dọc nào, bằng cách so sánh danh sách cột trong sys.columns với EXCEPT.
 - **Tái thiết:** đếm số bộ lệch giữa quan hệ gốc và view tái thiết theo cả hai chiều bằng EXCEPT, cộng thêm chênh lệch về số lượng bộ.
 - **Rời nhau:** đếm số khóa xuất hiện ở nhiều hơn một mảnh ngang bằng GROUP BY … HAVING COUNT(*) > 1; đếm số thuộc tính không khóa có mặt ở cả hai mảnh dọc bằng INTERSECT.
 
-Bảng 4.8 là kết quả kiểm tra. Cả 13 phép kiểm tra đều cho số dòng lệch bằng 0, khẳng định phân mảnh đúng đắn trên dữ liệu thực.
+Bảng 4.8 là kết quả kiểm tra. Cả 14 phép kiểm tra đều cho số dòng lệch bằng 0, khẳng định phân mảnh đúng đắn trên dữ liệu thực.
 
 Bảng: Kết quả kiểm tra tính đúng đắn
 | STT | Quan hệ | Quy tắc | Nội dung kiểm tra | Số lệch | Kết quả |
@@ -258,10 +260,9 @@ Bảng: Kết quả kiểm tra tính đúng đắn
 | 11 | DonHang | Đầy đủ | Đơn hàng không thuộc mảnh nào | 0 | ĐẠT |
 | 12 | DonHang | Tái thiết | Bộ lệch giữa DonHang gốc và v_DonHang | 0 | ĐẠT |
 | 13 | DonHang | Rời nhau | MaDH thuộc nhiều hơn một mảnh | 0 | ĐẠT |
+| 14 | ChiTietDonHang | Tái thiết | Bộ lệch giữa ChiTietDonHang gốc và v_ChiTietDonHang | 0 | ĐẠT |
 
-[[ẢNH: demo_05_kiem_tra_dung_dan.png – Kết quả chạy phần kiểm tra trong 03_reconstruct_check.sql]]
-
-Ngoài ra, script còn kiểm tra quan hệ ChiTietDonHang (tái thiết từ ba mảnh CTDHᵢ), nằm trong cùng bảng kết quả trên màn hình.
+![Kết quả chạy phần kiểm tra trong 03_reconstruct_check.sql: 14/14 phép kiểm tra ĐẠT](assets/screenshots/demo_05_kiem_tra_dung_dan.png)
 
 ### 4.7.4 Truy vấn minh họa
 
@@ -278,7 +279,9 @@ WHERE dh.TrangThai IN (N'Mới', N'Đang giao');
 
 Phân mảnh dọc còn đóng vai trò bảo mật. Mảnh NV_CV₁ tại chi nhánh không có cột lương, nên câu lệnh SELECT MaNV, Luong FROM NV_CV₁ báo lỗi *Invalid column name 'Luong'*. Tương tự, khi thêm vào KH_1_GD một khách hàng có MaCN = 'CN02', câu lệnh bị ràng buộc CHECK từ chối.
 
-[[ẢNH: demo_06_truy_van_cuc_bo.png – Kết quả truy vấn Q2 tại S1]]
+![Kết quả truy vấn Q2 tại S1: 6 dòng chi tiết của 4 đơn đang xử lý, chỉ dùng mảnh tại chỗ](assets/screenshots/demo_06_truy_van_cuc_bo.png)
+
+![Chi nhánh đọc cột Luong bị báo lỗi 207; thêm khách CN02 vào mảnh Hà Nội bị ràng buộc CHECK từ chối (lỗi 547)](assets/screenshots/demo_09_bao_mat_va_rang_buoc.png)
 
 **Truy vấn cục bộ tại trụ sở (S0).** Báo cáo công nợ theo miền (Q3) chỉ dùng ba mảnh KHᵢ_TC tại S0, không cần truy cập chi nhánh nào (Bảng 4.9).
 
@@ -304,7 +307,7 @@ Bảng: Doanh thu theo chi nhánh, không tính đơn đã hủy (Q6)
 | CN03 – TP.HCM | 15 | 171.350.000 |
 | **Tổng** | **42** | **690.980.000** |
 
-[[ẢNH: demo_07_truy_van_toan_cuc.png – Kết quả truy vấn toàn cục qua view]]
+![Truy vấn toàn cục qua view tại S0: khách có công nợ từ 80% hạn mức (Q3b) và doanh thu theo chi nhánh (Q6a)](assets/screenshots/demo_07_truy_van_toan_cuc.png)
 
 ### 4.7.5 Giao dịch phân tán
 
@@ -340,7 +343,7 @@ Hai trường hợp được thử nghiệm:
 
 Trên cùng một instance, SQL Server tự đảm bảo tính nguyên tử cho giao dịch trên nhiều CSDL. Khi các site là các máy khác nhau nối qua Linked Server, giao dịch được điều phối bởi MSDTC theo giao thức cam kết hai pha (2PC).
 
-[[ẢNH: demo_08_giao_dich.png – Công nợ trước và sau giao dịch, thông báo lỗi khi vượt hạn mức]]
+![Giao dịch phân tán: công nợ KH007 trước và sau khi lập đơn DH046; đơn vượt hạn mức của KH022 bị hủy với lỗi 50002 và không site nào bị ghi dở](assets/screenshots/demo_08_giao_dich.png)
 
 ## 4.8 Đánh giá
 
