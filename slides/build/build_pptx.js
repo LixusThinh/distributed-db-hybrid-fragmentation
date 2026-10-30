@@ -172,7 +172,15 @@ async function main() {
   {
     const s = dark("Mở đầu");
     text(s, "TRƯỜNG ĐẠI HỌC CÔNG NGHỆ TP.HCM · KHOA CÔNG NGHỆ THÔNG TIN",
-      { x: M + 0.1, y: 0.6, w: 9, h: 0.35, fontSize: 13, color: "D1D5DB", charSpacing: 1 });
+      { x: M + 0.1, y: 0.6, w: 8.4, h: 0.35, fontSize: 13, color: "D1D5DB", charSpacing: 1 });
+    // logo HUTECH (chữ xanh) đặt trên khung trắng để nổi trên nền tối
+    {
+      const logo = path.join(ROOT, "assets", "logo_hutech.png"), b = fs.readFileSync(logo);
+      // khung phải kết thúc trên nhãn "Giao dịch / Tài chính" của grid (y ≈ 1.48)
+      const lw = 2.6, lh = lw * b.readUInt32BE(20) / b.readUInt32BE(16), bx = W - M - 2.9, by = 0.3;
+      card(s, bx, by, 2.9, lh + 0.3, C.background1, "nen-logo");
+      s.addImage({ path: logo, x: bx + 0.15, y: by + 0.15, w: lw, h: lh, objectName: "logo-hutech" });
+    }
     text(s, "Môn: Cơ Sở Dữ Liệu Nâng Cao", { x: M + 0.1, y: 1.0, w: 8, h: 0.4, fontSize: 18, bold: true, color: C.accent1 });
     text(s, "TÌM HIỂU PHÂN MẢNH HỖN HỢP TRONG CSDL PHÂN TÁN VÀ ỨNG DỤNG CHO QUẢN LÝ ĐƠN HÀNG",
       { x: M + 0.1, y: 1.8, w: 7.7, h: 2.7, fontSize: 34, bold: true, fontFace: THEME.headFontFace,
@@ -180,7 +188,7 @@ async function main() {
     text(s, paras([{ t: "Giảng viên hướng dẫn", size: 13, color: "D1D5DB", space: 4 },
       { t: "ThS. Nguyễn Văn Danh", size: 20, bold: true }], { color: C.background1 }),
       { x: M + 0.1, y: 5.25, w: 3.4, h: 1.2 });
-    text(s, paras([{ t: "Nhóm thực hiện", size: 13, color: "D1D5DB", space: 4 },
+    text(s, paras([{ t: "Nhóm thực hiện · Lớp 23DTHE3", size: 13, color: "D1D5DB", space: 4 },
       { t: "Trần Gia Thịnh – 2380602136", size: 18, space: 2 }, { t: "Phạm Minh Triết – 2380605829", size: 18 }],
       { color: C.background1 }), { x: 4.3, y: 5.25, w: 4.6, h: 1.4 });
     grid(s, 9.25, 1.9);
