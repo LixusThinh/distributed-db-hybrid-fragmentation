@@ -1,5 +1,5 @@
 // Dựng báo cáo Word từ các file Markdown trong docs/draft/.
-//   cd docs/build && node build_docx.js       → docs/BaoCao_PhanManhHonHop.docx
+//   cd docs/build && node build_docx.js       → docs/BaoCao_PhanManhHonHop_final.docx
 //   powershell -File finalize_word.ps1        → cập nhật mục lục, xuất PDF (cần MS Word)
 //
 // Cú pháp Markdown được hỗ trợ (tập con):
@@ -27,7 +27,7 @@ const DRAFT = path.join(ROOT, "docs", "draft");
 // file nào không có ở đó (phần đầu, tài liệu tham khảo) thì dùng chung với bản đầy đủ
 const SHORT = process.argv.includes("--short");
 const DRAFT_SHORT = path.join(ROOT, "docs", "draft_short");
-const OUT = path.join(ROOT, "docs", SHORT ? "BaoCao_PhanManhHonHop_RutGon.docx" : "BaoCao_PhanManhHonHop.docx");
+const OUT = path.join(ROOT, "docs", SHORT ? "BaoCao_PhanManhHonHop_cutfinal.docx" : "BaoCao_PhanManhHonHop_final.docx");
 const draftFile = (f) => (SHORT && fs.existsSync(path.join(DRAFT_SHORT, f)) ? path.join(DRAFT_SHORT, f) : path.join(DRAFT, f));
 
 const FONT = "Times New Roman";
@@ -281,7 +281,7 @@ function cover() {
       return new Paragraph({ alignment: AlignmentType.CENTER, spacing: { after: 700 },
         children: [new ImageRun({ type: "png", data: fs.readFileSync(logo), transformation: { width: lw, height: Math.round(lw * h / w) } })] });
     })(),
-    c(SHORT ? "ĐỒ ÁN MÔN HỌC – BẢN RÚT GỌN" : "ĐỒ ÁN MÔN HỌC", 32, true, 60),
+    c("ĐỒ ÁN MÔN HỌC", 32, true, 60),
     c("CƠ SỞ DỮ LIỆU NÂNG CAO", 36, true, 1000),
     new Paragraph({ alignment: AlignmentType.CENTER, spacing: { after: 1400, line: 360 },
       children: [new TextRun({ text: COVER.title, size: 34, bold: true, color: "1F3864" })] }),

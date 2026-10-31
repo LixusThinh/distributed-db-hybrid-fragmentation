@@ -1,6 +1,6 @@
 # Mở báo cáo bằng MS Word: cập nhật mục lục, danh mục hình/bảng, lưu lại và xuất PDF.
-#   powershell -ExecutionPolicy Bypass -File docs/build/finalize_word.ps1 [-Name BaoCao_PhanManhHonHop_RutGon.docx]
-param([string]$Name = "BaoCao_PhanManhHonHop.docx")
+#   powershell -ExecutionPolicy Bypass -File docs/build/finalize_word.ps1 [-Name BaoCao_PhanManhHonHop_cutfinal.docx]
+param([string]$Name = "BaoCao_PhanManhHonHop_final.docx")
 $docx = Resolve-Path (Join-Path $PSScriptRoot "..\$Name")
 $pdf = [IO.Path]::ChangeExtension($docx, ".pdf")
 $word = New-Object -ComObject Word.Application

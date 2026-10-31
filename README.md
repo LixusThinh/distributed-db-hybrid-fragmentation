@@ -7,7 +7,7 @@ GVHD: ThS. Nguyễn Văn Danh · Nhóm: Trần Gia Thịnh (2380602136), Phạm 
 
 | Thư mục | Nội dung |
 |---------|----------|
-| `docs/` | Đề cương, thiết kế bài toán, báo cáo Word (`BaoCao_PhanManhHonHop.docx` / `.pdf`) |
+| `docs/` | Đề cương, thiết kế bài toán, báo cáo Word (`BaoCao_PhanManhHonHop_final.docx` / `.pdf`; bản < 30 trang: `BaoCao_PhanManhHonHop_cutfinal.docx` / `.pdf`) |
 | `docs/draft/` | Nội dung báo cáo dạng Markdown, `docs/build/` dựng ra file .docx |
 | `demo/` | Script SQL Server: lược đồ toàn cục, tạo mảnh, view tái thiết, kiểm tra đúng đắn, truy vấn – xem `demo/README.md` |
 | `assets/diagrams/` | Sơ đồ (PNG + SVG), sinh bằng `gen_diagrams.py` |
